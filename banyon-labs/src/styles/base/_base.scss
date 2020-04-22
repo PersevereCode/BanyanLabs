@@ -1,0 +1,10 @@
+$primary-color-one: #187c6d;
+$primary-color-two: #96dcd2;
+$secondary-color-one: #ff977e;
+$secondary-color-two: #a03116;
+
+@mixin widthHeight($width, $height) {
+    width: $width;
+    height: $height;
+}
+
