@@ -1,12 +1,22 @@
-import React from 'react';
-
+import React from "react";
+import ContactForm from "./Form";
+import { Container, Row, Col } from "react-bootstrap";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <p className="display-4">test</p>
-      </header>
-    </div>
+    <Container className="App">
+      <Row>
+        <header className="App-header">
+          <p className="display-4">test</p>
+        </header>
+      </Row>
+      <Row>
+        <Col>
+          <div>
+            <ContactForm />
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
