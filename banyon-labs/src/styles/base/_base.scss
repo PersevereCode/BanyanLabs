@@ -8,3 +8,6 @@ $secondary-color-two: #a03116;
     height: $height;
 }
 
+.logo {
+    @include widthHeight(180px, 45px);
+}
