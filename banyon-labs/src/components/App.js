@@ -1,13 +1,13 @@
 import React from "react";
-import ContactForm from "./Form";
+import ContactForm from "./ContactForm/ContactForm";
 import { Container, Row, Col } from "react-bootstrap";
 function App() {
   return (
     <Container className="App">
       <Row>
-        <header className="App-header">
+        {/* <header className="App-header">
           <p className="display-4">test</p>
-        </header>
+        </header> */}
       </Row>
       <Row>
         <Col>
