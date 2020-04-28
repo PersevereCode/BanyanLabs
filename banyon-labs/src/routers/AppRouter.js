@@ -5,6 +5,7 @@ import Contact from '../pages/Contact/Contact'
 import Home from '../pages/Home/Home'
 import HeaderNav from '../components/HeaderNav'
 import About from '../pages/About/About'
+import Team from "../pages/Team/Team"
 
 const AppRouter = () => (
     <BrowserRouter>
@@ -14,6 +15,7 @@ const AppRouter = () => (
                   <Route path="/" component={Home} exact={true} />
                   <Route path="/about_us" component={About} />
                   <Route path="/contact_us" component={Contact} />
+                  <Route path="/team" component={Team} />
                   <Route component={NotFoundPage}/>
               </Switch>
           </div>
