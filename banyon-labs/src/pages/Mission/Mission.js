@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ContactForm from "../../components/Form";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 export default class Mission extends Component {
   render() {
