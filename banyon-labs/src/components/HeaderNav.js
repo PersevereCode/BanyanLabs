@@ -36,7 +36,7 @@ const HeaderNav = (props) => {
                                 <Dropdown.Item href="/services/3">Mobile Apps</Dropdown.Item>
                                 <Dropdown.Item href="/services/4">Testing Services</Dropdown.Item>
                             </NavDropdown>
-                            <Nav.Link className="mx-2 mr-5" href="/contact_us">Contact</Nav.Link>
+                            <Nav.Link className="mx-2 mr-5" href="#contact_us">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>

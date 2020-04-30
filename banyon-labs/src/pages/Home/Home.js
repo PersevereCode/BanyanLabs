@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Carousel from '../../components/Carousel'
 import WhatWeDo from '../../components/WhatWeDo'
 import WhoWeAre from '../../components/WhoWeAre'
-import ContactForm from '../../components/Form'
+import Information from '../../components/Information'
 
 export default class Home extends Component {
     render() {
@@ -11,6 +11,7 @@ export default class Home extends Component {
                 <Carousel />
                 <WhoWeAre />
                 <WhatWeDo />
+                <Information />
             </div>
         )
     }
