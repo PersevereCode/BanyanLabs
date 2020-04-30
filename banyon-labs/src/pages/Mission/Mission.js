@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import ContactForm from "../../components/Form";
-import { Container, Row} from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
-export default class About extends Component {
+export default class Mission extends Component {
   render() {
     return (
       <div
@@ -13,31 +13,21 @@ export default class About extends Component {
         }}
       >
         <Row style={{ backgroundColor: "#24234d" }}>
-          {" "}
-          {/*Might be better to have a bacgrkound image instead of the color*/}
           <Container className="pt-4 pb-4 text-center">
             <h1
               className="display-3"
               style={{ "font-family": "Acumin Variable Concept" }}
             >
-              About Us
+              Mission
             </h1>
             <p>
-              Banyan Labs is U.S. based, international for-profit development
-              company created to provide high quality IT services while also
-              making a positive contribution to the effort to reduce recidivsm
-              and empower justice involved indiviuals to succeed in well-paying
-              jobs in the tech industry.
+              At Banyan Labs our mission is, first, <b style={{color: "#1b723f"}}><u>client value</u></b> and, second, <b style={{color: "#1b723f"}}><u>associate growth</u></b>.
               <br />
-              Co-located with Persevere, Banyan Labs employs Persevere
-              participants who have completed their training to work as junior
-              developers. providing them with supervision, mentoring, support
-              and valuable experience to launch their careers as developers.
+              We have education, partnership, and mentoring programs in place which ensure that our clients recevie world-class development work on their projects while the men and women of Banyan Labs continue to learn and reine their technical skills.
             </p>
           </Container>
         </Row>
         <Row>
-          {/*Adding in some more text to see how things space out. Once we recevie the final text may need to be restyled.*/}
           <Container
             className="pt-4 pb-4 text-center"
             style={{ color: "black" }}
