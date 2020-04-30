@@ -79,7 +79,7 @@ export default class About extends Component {
             <h1 className="display-5 p-2 mt-4 mb-4 border border-white">
               Get in Touch
             </h1>
-            <ContactForm />
+            
           </Container>
         </Row>
       </div>

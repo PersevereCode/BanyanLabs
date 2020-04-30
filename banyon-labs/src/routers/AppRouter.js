@@ -8,6 +8,7 @@ import About from '../pages/About/About'
 import Team from "../pages/Team/Team"
 import Mission from "../pages/Mission/Mission"
 import Partners from "../pages/Partners/Partners"
+import ContactForm from '../components/Form'
 
 
 
@@ -30,6 +31,7 @@ const AppRouter = () => (
                 <Route path="/team" component={Team} />
                 <Route component={NotFoundPage}/>
             </Switch>
+            <ContactForm />
         </div>
     </BrowserRouter>
   )

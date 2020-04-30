@@ -11,7 +11,6 @@ export default class Home extends Component {
                 <Carousel />
                 <WhoWeAre />
                 <WhatWeDo />
-                <ContactForm />
             </div>
         )
     }
