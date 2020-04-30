@@ -11,3 +11,10 @@ $secondary-color-two: #a03116;
 .logo {
     @include widthHeight(180px, 45px);
 }
+body{
+    overflow-x: hidden;
+}
+
+.car-wid{
+    max-width: 1500px;
+}
