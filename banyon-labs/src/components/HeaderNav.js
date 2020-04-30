@@ -17,7 +17,6 @@ const HeaderNav = (props) => {
                             {...props}
                             onMouseOver={() => updateIsOpen2(true)}
                             onMouseLeave={() => updateIsOpen2(false)}
-                            // onClick={() => updateIsOpen2(true)}
                             show={isOpen2}
                             >
                                 <NavDropdown.Item href="/about_us">About</NavDropdown.Item>
@@ -30,7 +29,6 @@ const HeaderNav = (props) => {
                             {...props}
                             onMouseOver={() => updateIsOpen(true)}
                             onMouseLeave={() => updateIsOpen(false)}
-                            // onClick={() => updateIsOpen(true)}
                             show={isOpen}
                             >
                                 <Dropdown.Item href="#">Our Process</Dropdown.Item>

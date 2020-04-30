@@ -13,21 +13,25 @@ import Partners from "../pages/Partners/Partners"
 
 const AppRouter = () => (
     <BrowserRouter>
-          <div>
-              <HeaderNav />
+        <div>
+            <HeaderNav />
             {/* //Header Spacer because the HeaderNav is "fixed"  */}
-              <div className="mb-5"></div>
-              <Switch>
-                  <Route path="/" component={Home} exact={true} />
-                  <Route path="/about_us" component={About} />
-                  <Route path="/mission" component={Mission} />
-                  <Route path="/partners" component={Partners} />
-                  <Route path="/contact_us" component={Contact} />
-                  <Route path="/team" component={Team} />
-                  <Route component={NotFoundPage}/>
-              </Switch>
-          </div>
-      </BrowserRouter>
+            <div className="mb-5"></div>
+            <Switch>
+                <Route path="/" component={Home} exact={true} />
+                <Route path="/about_us" component={About} />
+                <Route path="/mission" component={Mission} />
+                <Route path="/partners" component={Partners} />
+                <Route path="/contact_us" component={Contact} />
+                <Route path="/services/1" component={Services} />
+                <Route path="/services/2" component={Services} />
+                <Route path="/services/3" component={Services} />
+                <Route path="/services/4" component={Services} />
+                <Route path="/team" component={Team} />
+                <Route component={NotFoundPage}/>
+            </Switch>
+        </div>
+    </BrowserRouter>
   )
   
   export default AppRouter
