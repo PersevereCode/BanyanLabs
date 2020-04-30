@@ -5,7 +5,7 @@ const HeaderNav = (props) => {
     const [isOpen, updateIsOpen] = useState(false)
     const [isOpen2, updateIsOpen2] = useState(false)
       return (
-        <div className="car-wid">
+        <div>
             <Navbar fixed="top" bg="light" expand="lg" collapseOnSelect >
                     <Navbar.Brand href="/"><Image className="logo" src={Logo} /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -16,23 +16,21 @@ const HeaderNav = (props) => {
                             <NavDropdown className="mx-2" as="div" title="Who We Are" id="basic-dropdown1" 
                             {...props}
                             onMouseOver={() => updateIsOpen2(true)}
-                            onFocus={() => updateIsOpen2(true)}
                             onMouseLeave={() => updateIsOpen2(false)}
-                            onBlur={() => updateIsOpen2(false)}
+                            // onClick={() => updateIsOpen2(true)}
                             show={isOpen2}
                             >
                                 <NavDropdown.Item href="/about_us">About</NavDropdown.Item>
-                                <NavDropdown.Item href="#">Mission</NavDropdown.Item>
-                                <NavDropdown.Item href="#">Team</NavDropdown.Item>
-                                <NavDropdown.Item href="#">Partners</NavDropdown.Item>
+                                <NavDropdown.Item href="/mission">Mission</NavDropdown.Item>
+                                <NavDropdown.Item href="/team">Team</NavDropdown.Item>
+                                <NavDropdown.Item href="/partners">Partners</NavDropdown.Item>
                                 <NavDropdown.Divider/>
                             </NavDropdown>
                             <NavDropdown className="mx-2" as="div" title="What We Do" id="basic-dropdown2" 
                             {...props}
                             onMouseOver={() => updateIsOpen(true)}
-                            onFocus={() => updateIsOpen(true)}
                             onMouseLeave={() => updateIsOpen(false)}
-                            onBlur={() => updateIsOpen(false)}
+                            // onClick={() => updateIsOpen(true)}
                             show={isOpen}
                             >
                                 <Dropdown.Item href="#">Our Process</Dropdown.Item>
