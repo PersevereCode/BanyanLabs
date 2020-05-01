@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import ContactForm from "../../components/Form";
 import { Container, Row} from "react-bootstrap";
-
+import BackgroundImage from "../../styles/images/aboutBackground1.jpg"
+import Divider from '@material-ui/core/Divider';
 export default class About extends Component {
   render() {
     return (
@@ -12,36 +13,47 @@ export default class About extends Component {
           fontSize: "22px",
         }}
       >
-        <Row style={{ backgroundColor: "#24234d" }}>
+        <Row
+        // style= // {{ backgroundColor: "#24234d" }}
+        >
           {" "}
           {/*Might be better to have a bacgrkound image instead of the color*/}
-          <Container className="pt-4 pb-4 text-center">
-            <h1
-              className="display-3"
-              style={{ "font-family": "Acumin Variable Concept" }}
+            <Container className=" pt-4 pb-4 text-left" 
+            style= {{backgroundImage: `url(${BackgroundImage})`, height:"400px", width:"60vw"}}
             >
-              About Us
-            </h1>
-            <p>
-              Banyan Labs is U.S. based, international for-profit development
-              company created to provide high quality IT services while also
-              making a positive contribution to the effort to reduce recidivsm
-              and empower justice involved indiviuals to succeed in well-paying
-              jobs in the tech industry.
-              <br />
-              Co-located with Persevere, Banyan Labs employs Persevere
-              participants who have completed their training to work as junior
-              developers. providing them with supervision, mentoring, support
-              and valuable experience to launch their careers as developers.
-            </p>
-          </Container>
+
+              <h1
+                className="display-3 pl-3"
+                style={{ "font-family": "Acumin Variable Concept", color:"#1b723f"}}
+              >
+                About Us
+              </h1>
+            </Container>
+          
         </Row>
         <Row>
           {/*Adding in some more text to see how things space out. Once we recevie the final text may need to be restyled.*/}
           <Container
             className="pt-4 pb-4 text-center"
-            style={{ color: "black" }}
+            style={{ color: "black", width:"60vw" }}
           >
+            <Container className="pt-4 pb-4 mb-5 text-center bg-light">
+              <p>
+                Banyan Labs is U.S. based, international for-profit development
+                company created to provide high quality IT services while also
+                making a positive contribution to the effort to reduce recidivsm
+                and empower justice involved indiviuals to succeed in well-paying
+                jobs in the tech industry.
+                <br />
+                Co-located with Persevere, Banyan Labs employs Persevere
+                participants who have completed their training to work as junior
+                developers. providing them with supervision, mentoring, support
+                and valuable experience to launch their careers as developers.
+              </p>
+          </Container>
+          <Divider style={{height:"2px"}} />
+          <Container className="pb-3 pt-4 mt-5 text-center bg-light"
+          style={{width:"60vw"}}>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               ante sem, mollis eget ligula at, vehicula ultrices mauris. Aliquam
@@ -73,15 +85,16 @@ export default class About extends Component {
               luctus eu.
             </p>
           </Container>
+          </Container>
         </Row>
-        <Row style={{ backgroundColor: "#511135" }}>
+        {/* <Row style={{ backgroundColor: "#511135" }}>
           <Container className="text-center mb-4">
             <h1 className="display-5 p-2 mt-4 mb-4 border border-white">
               Get in Touch
             </h1>
             
           </Container>
-        </Row>
+        </Row> */}
       </div>
     );
   }
