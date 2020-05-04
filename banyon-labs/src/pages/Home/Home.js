@@ -9,9 +9,11 @@ export default class Home extends Component {
         return (
             <div>
                 <Carousel />
-                <WhoWeAre />
-                <WhatWeDo />
-                <Information />
+                <div className="max-w mx-auto">
+                    <WhoWeAre />
+                    <WhatWeDo />
+                    <Information />
+                </div>
             </div>
         )
     }
