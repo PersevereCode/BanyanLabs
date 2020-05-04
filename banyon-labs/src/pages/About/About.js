@@ -34,10 +34,10 @@ export default class About extends Component {
         <Row>
           {/*Adding in some more text to see how things space out. Once we recevie the final text may need to be restyled.*/}
           <Container
-            className="pt-4 pb-4 text-center"
+            className="py-4 px-5 text-center"
             style={{ color: "black", width:"60vw" }}
           >
-            <Container className="pt-4 pb-4 mb-5 text-center bg-light">
+            <Container className="py-4 px-4 mb-5 text-center bg-light">
               <p>
                 Banyan Labs is U.S. based, international for-profit development
                 company created to provide high quality IT services while also
@@ -52,9 +52,8 @@ export default class About extends Component {
               </p>
           </Container>
           <Divider style={{height:"2px"}} />
-          <Container className="pb-3 pt-4 mt-5 text-center bg-light"
-          style={{width:"60vw"}}>
-            <p>
+          <Container className="py-4 px-5 mt-5 text-center bg-light">
+            <p className="py-4 px-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               ante sem, mollis eget ligula at, vehicula ultrices mauris. Aliquam
               in condimentum erat. Sed viverra lacus quis efficitur convallis.
