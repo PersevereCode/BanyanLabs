@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Carousel } from 'react-bootstrap'
 import Slide1 from '../styles/images/slide1.jpg'
-import Slide2 from '../styles/images/slide2.jpg'
 import Slide3 from '../styles/images/slide3.jpg'
 import Slide4 from '../styles/images/slide4.jpg'
 import Slide5 from '../styles/images/slide5.jpg'
