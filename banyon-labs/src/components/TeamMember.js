@@ -32,20 +32,19 @@ export default class TeamMember extends Component {
       return (
         <Col sm={12} md={6} lg={3}>
           <Card key={member.id} className="m-2">
-            <Card.Img
-              variant="top"
-              src={member.image}
-            />
-            <Card.Body>
-              <Card.Title>{member.name}</Card.Title>
-              <Card.Text>{member.title}</Card.Text>
+            <Card.Body style={{border: "#24234d solid 3px"}}>
+              <Card.Img variant="top" src={member.image} />
+              <Card.Title style={{textDecoration: "underline", textDecorationColor: "#494d83",fontSize: "1.35em"}}>{member.name}</Card.Title>
+              <Card.Subtitle>
+                <b>{member.title}</b>
+              </Card.Subtitle>
+              <br />
               <Button
-              style={{backgroundColor: "#511135", border: "#511135"}}
+                style={{ backgroundColor: "#24234d", border: "#24234d",}}
                 onClick={() => {
                   this.learnMore(member);
                   this.handleShow();
                 }}
-              
                 block
               >
                 Learn More
