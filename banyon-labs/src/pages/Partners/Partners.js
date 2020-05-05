@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ContactForm from "../../components/Form";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 export default class Partners extends Component {
@@ -83,14 +82,6 @@ export default class Partners extends Component {
                 </p>
               </Col>
             </Row>
-          </Container>
-        </Row>
-        <Row style={{ backgroundColor: "#511135" }}>
-          <Container className="text-center mb-4">
-            <h1 className="display-5 p-2 mt-4 mb-4 border border-white">
-              Get in Touch
-            </h1>
-          
           </Container>
         </Row>
       </div>

@@ -1,12 +1,17 @@
 import React, { Component } from "react";
 import TeamMemberExpanded from "./TeamMemberExpanded";
-import { Card, Button, Row, Col } from "react-bootstrap";
+import { Card, Button, Row, CardGroup, CardDeck, Col } from "react-bootstrap";
 
 export default class TeamMember extends Component {
   constructor(props) {
     super(props);
+
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+
     this.state = {
       selectedMember: null,
+      show: false,
     };
   }
 
@@ -14,44 +19,52 @@ export default class TeamMember extends Component {
     this.setState({ selectedMember: member });
   }
 
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
+  }
+
   render() {
     const members = this.props.teamMembers.map((member) => {
       return (
-        <Card key={member.id} style={{ width: "15rem" }}>
-          <Card.Img style={{width: "238px", height: "225px"}} variant="top" src={member.image} />
-          <Card.Body>
-            <Card.Title>{member.name}</Card.Title>
-            <Card.Text>{member.title}</Card.Text>
-            <Button
-              onClick={() => {
-                this.learnMore(member);
-              }}
-              variant="primary"
-            >
-              Learn More
-            </Button>
-          </Card.Body>
-        </Card>
+        <Col sm={12} md={6} lg={3}>
+          <Card key={member.id} className="m-2">
+            <Card.Body style={{border: "#24234d solid 3px"}}>
+              <Card.Img variant="top" src={member.image} />
+              <Card.Title style={{textDecoration: "underline", textDecorationColor: "#494d83",fontSize: "1.35em"}}>{member.name}</Card.Title>
+              <Card.Subtitle>
+                <b>{member.title}</b>
+              </Card.Subtitle>
+              <br />
+              <Button
+                style={{ backgroundColor: "#24234d", border: "#24234d",}}
+                onClick={() => {
+                  this.learnMore(member);
+                  this.handleShow();
+                }}
+                block
+              >
+                Learn More
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
       );
     });
 
-    const even = members.filter((i) => parseInt(i.key) % 2 === 0);
-    const odd = members.filter((i) => parseInt(i.key) % 2 !== 0);
-    console.log(members,even, odd);
-
     return (
       <div className="container">
-        <Row >
-          <Col lg={6} style={{maxHeight: "762px","overflow-y": "scroll"}}>
-            <Row>
-              <Col>{even}</Col>
-              <Col>{odd}</Col>
-            </Row>
-            {/* {members} */}
-          </Col>
-          <Col lg={6}>
-            <TeamMemberExpanded member={this.state.selectedMember} />
-          </Col>
+        <Row className="mb-2">
+          <CardDeck>{members}</CardDeck>
+
+          <TeamMemberExpanded
+            member={this.state.selectedMember}
+            show={this.state.show}
+            onClose={this.handleClose}
+          />
         </Row>
       </div>
     );
