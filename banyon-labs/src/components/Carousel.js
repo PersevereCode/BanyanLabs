@@ -14,7 +14,7 @@ function ControlledCarousel() {
   
     return (
         <div>
-            <Carousel activeIndex={index} onSelect={handleSelect} className="car-wid bg-dark mx-auto">
+            <Carousel activeIndex={index} onSelect={handleSelect} className="car-wid mx-auto">
                 <Carousel.Item>
                 <img
                     className="d-block carousel-img w-100"

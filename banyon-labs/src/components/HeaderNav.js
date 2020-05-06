@@ -6,7 +6,7 @@ const HeaderNav = (props) => {
     const [isOpen2, updateIsOpen2] = useState(false)
       return (
         <div>
-            <Navbar fixed="top" bg="light" expand="lg" collapseOnSelect >
+            <Navbar fixed="top" bg="light" className="zero-dawn" expand="lg" collapseOnSelect >
                     <Navbar.Brand href="/"><Image className="logo" src={Logo} /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
