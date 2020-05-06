@@ -1,0 +1,10 @@
+.car-cap{
+    top: 70px;
+    bottom: auto;
+}
+.c-image{
+    min-height: 380px;
+    margin-top: 70px;
+    max-width: 1200px;
+    min-width: 320px;
+}

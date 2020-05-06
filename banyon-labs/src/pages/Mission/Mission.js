@@ -9,6 +9,7 @@ export default class Mission extends Component {
           color: "white",
           "font-family": "bc-alphapipe, sans-serif",
           fontSize: "22px",
+          marginTop: "70px",
         }}
       >
         <Row style={{ backgroundColor: "#24234d" }}>

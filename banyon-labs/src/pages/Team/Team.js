@@ -9,7 +9,7 @@ export default class Team extends Component {
     
     return (
       <div>
-        <Row style={{ backgroundColor: "#24234d", color: "white" }}>
+        <Row style={{ backgroundColor: "#24234d", color: "white",marginTop: "70px" }}>
           <Container className="mt-4 text-center">
             <h1
               className="display-3 "
