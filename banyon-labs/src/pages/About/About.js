@@ -10,8 +10,8 @@ export default class About extends Component {
       <div
         style={{
           // color: "white",
-          "font-family": "bc-alphapipe, sans-serif",
-          fontSize: "20px",
+          "font-family": "ledo",
+          fontSize: "22px",
         }}
       >
         <Row className="justify-content-center"
