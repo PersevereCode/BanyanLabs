@@ -11,7 +11,7 @@ const HeaderNav = (props) => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto"></Nav>
-                        <Nav>
+                        <Nav className="d-flex align-items-end">
                         <Nav.Link className="mx-2" href="/">Home</Nav.Link>
                             <NavDropdown className="mx-2" as="div" title="Who We Are" id="basic-dropdown1" 
                             {...props}
@@ -36,7 +36,7 @@ const HeaderNav = (props) => {
                                 <Dropdown.Item href="/services/3">Mobile Apps</Dropdown.Item>
                                 <Dropdown.Item href="/services/4">Testing Services</Dropdown.Item>
                             </NavDropdown>
-                            <Nav.Link className="mx-2 mr-5" href="#contact_us">Contact</Nav.Link>
+                            <Nav.Link className="mx-2 mr-lg-5" href="#contact_us">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>
