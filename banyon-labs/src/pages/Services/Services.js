@@ -12,6 +12,9 @@ import Paginate from "../../components/Paginate";
 import "./serve.css";
 
 class Services extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     // console.log(this.props.match.url[10]);
     const page = this.props.match.url[10];

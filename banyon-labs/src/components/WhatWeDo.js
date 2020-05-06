@@ -5,6 +5,7 @@ import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn'
 import DesktopWindowsIcon from '@material-ui/icons/DesktopWindows'
 import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted'
 import { Fade } from 'react-reveal'
+import { Link } from 'react-router-dom'
 
 const WhatWeDo = (props) => {
     // const [style, setStyle] = useState({background: "green"})
@@ -33,6 +34,7 @@ const WhatWeDo = (props) => {
                 </div>
                 <div className="col col-lg-5 d-flex flex-column mb-3">
                     <ListGroup>
+                    <Link className="no-dec" to="/services/1">
                         <ListGroup.Item className="bg-light mb-2" onMouseOver={() => setShow({
                             "default": false,
                             "process": true,
@@ -40,6 +42,8 @@ const WhatWeDo = (props) => {
                             "mobile": false,
                             "testing": false
                     })}><FormatListBulletedIcon className="mr-2" />Our Process</ListGroup.Item>
+                    </Link>
+                    <Link className="no-dec" to="/services/2">
                         <ListGroup.Item className="bg-light mb-2" onMouseOver={() => setShow({
                             "default": false,
                             "process": false,
@@ -47,6 +51,8 @@ const WhatWeDo = (props) => {
                             "mobile": false,
                             "testing": false
                     })}><DesktopWindowsIcon className="mr-2" />Web Apps</ListGroup.Item>
+                    </Link>
+                    <Link className="no-dec" to="/services/3">
                         <ListGroup.Item className="bg-light mb-2" onMouseOver={() => setShow({
                             "default": false,
                             "process": false,
@@ -54,6 +60,8 @@ const WhatWeDo = (props) => {
                             "mobile": true,
                             "testing": false
                     })}><PhoneAndroidIcon className="mr-2" />Mobile Apps</ListGroup.Item>
+                    </Link>
+                    <Link className="no-dec" to="/services/4">
                         <ListGroup.Item className="bg-light" onMouseOver={() => setShow({
                             "default": false,
                             "process": false,
@@ -61,6 +69,7 @@ const WhatWeDo = (props) => {
                             "mobile": false,
                             "testing": true
                     })}><AssignmentTurnedInIcon className="mr-2" />Testing Services</ListGroup.Item>
+                    </Link>
                     </ListGroup>
                 </div>
                 <div className="col">

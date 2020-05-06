@@ -18,7 +18,7 @@ function ControlledCarousel() {
   
     return (
         <div>
-            <Carousel controls={false} slide={false} activeIndex={index} onSelect={handleSelect} className="car-wid mx-auto bg-blend">
+            <Carousel interval={5000} controls={false} slide={false} activeIndex={index} onSelect={handleSelect} className="car-wid mx-auto bg-blend">
                 <Carousel.Item>
                 {/* <img
                     className="d-block carousel-img w-100"
@@ -26,7 +26,7 @@ function ControlledCarousel() {
                     alt="First slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay="true" loop>
+                    <video autoPlay={true} loop>
                         <source type="video/mp4" src={SourceCode} />
                     </video>
                 </ResponsiveEmbed>
@@ -42,7 +42,7 @@ function ControlledCarousel() {
                     alt="Second slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay="true" loop>
+                    <video autoPlay={true} loop>
                         <source type="video/mp4" src={Office} />
                     </video>
                 </ResponsiveEmbed>
@@ -58,7 +58,7 @@ function ControlledCarousel() {
                     alt="Third slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay="true" loop>
+                    <video autoPlay={true} loop>
                         <source type="video/mp4" src={Laptop} />
                     </video>
                 </ResponsiveEmbed>
@@ -76,7 +76,7 @@ function ControlledCarousel() {
                     alt="Third slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay="true" loop>
+                    <video autoPlay={true} loop>
                         <source type="video/mp4" src={Keyboard} />
                     </video>
                 </ResponsiveEmbed>
