@@ -17,3 +17,9 @@
       text-shadow: 2px 2px slateblue !important;
       color: snow !important;
     }
+
+    .max-hw{
+      width: 100%;
+      max-width: 1000px !important;
+      max-height: 700px;
+    }

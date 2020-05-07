@@ -1,44 +1,42 @@
 import React from "react";
-// import "./style.css";
+import { Container, Row } from 'react-bootstrap'
+import "./style.css";
 
 function Service(props) {
   return (
-    
+<div>
+  <Row style={{ backgroundColor: "#24234d" }}>
+    <Container className="pt-4 pb-4 text-center text-light">
+      <h1
+        className="display-3"
+        style={{ "font-family": "Acumin Variable Concept" }}
+      >
+        {props.title}
+      </h1>
+    </Container>
+  </Row>
 
-<div className="container">
- 
-  <h1 id="page-header" className="mt-4 mb-3">{props.title}
-  </h1>
-  {/* <ol id="breadcrumb" className="breadcrumb bg-dark">
-    <li className="breadcrumb-item">
-      <a
-      href="/">Home</a>
-    </li>
-    <li className="breadcrumb-item active">{props.title}</li>
-  </ol> */}
+  <div id="features" className="d-flex flex-column justify-content-center align-items-center">
 
-  <div id="features" className="row">
-
-    <div className="col-md-5">
-  <h3>{props.h1}</h3>
-  {/* <p>{props.p1}</p> */}
-
+  <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
+    <img id="appraisal-image" className="img-fluid rounded mb-3 mb-md-0" src={props.img} alt='img' />
+  </div>
+  <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
+    <h3>{props.h1}</h3>
+    {/* <p>{props.p1}</p> */}
         <br />
-
-      <h3>{props.h2}</h3>
-  {/* <p>{props.p2}</p> */}
-     
+    <h3 className="mt-3">{props.h2}</h3>
+    {/* <p>{props.p2}</p> */} 
     </div>
-
-
-    <div className="col-md-7">
-
-<img id="appraisal-image" className="img-fluid rounded mb-3 mb-md-0" src={props.img} alt='img' />
-
-</div>
   </div>
 
   <br />
+  {
+    props.diagram && 
+      <div className="row justify-content-center mt-3">
+        <img src={props.diagram} alt="img" className="px-5 col-md-9 col-sm-12 mx-auto max-hw" />
+      </div>
+  }
   {/* <h2 id="page-header"><strong>We Also Offer:</strong></h2> */}
   {/* <div id="features" className="row">
     <div className="col-sm-6">

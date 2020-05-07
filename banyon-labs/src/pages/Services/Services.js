@@ -6,10 +6,10 @@ import Service from "../../components/Services";
 // import Col from "react-bootstrap/Col";
 // import Row from "react-bootstrap/Row";
 // import Container from "react-bootstrap/Container";
-import Paginate from "../../components/Paginate";
 // import Card from "../../components/Card";
 // import Jumbotron from "react-bootstrap/Jumbotron";
 import "./serve.css";
+import Diagram from '../../styles/images/ourprocess.png'
 
 class Services extends Component {
   componentDidMount() {
@@ -27,10 +27,8 @@ class Services extends Component {
               title="Our Process"
               h1="When we engage with clients we want to make sure that communication is paramount, that committments are kept, and that projects meeting expectations are delivered on time and on budget."
               h2="This is a diagram of the process which we will follow with you as our client:"
+              diagram={Diagram}
             />
-
-            <Paginate prev={"/services/1"} next={"/services/2"} />
-
             <br />
           </div>
         );
@@ -43,7 +41,7 @@ class Services extends Component {
               h1=""
               h2=""
             />
-            <Paginate prev={"/services/1"} next={"/services/3"} />
+          
             <br />
           </div>
         );
@@ -56,7 +54,7 @@ class Services extends Component {
               h1=""
               h2=""
             />
-            <Paginate prev={"/services/2"} next={"/services/4"} />
+           
             <br />
           </div>
         );
@@ -69,7 +67,7 @@ class Services extends Component {
               h1=""
               h2=""
             />
-            <Paginate prev={"/services/3"} next={"/services/4"} />
+         
             <br />
           </div>
         );
@@ -89,7 +87,6 @@ class Services extends Component {
       identifies the most credible and reliable appraisal report. This is many times a better alternative than
       ordering a third or fourth appraisal."
             />
-            <Paginate prev={"/services/1"} next={"/services/2"} />
           </div>
         );
     }
