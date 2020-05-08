@@ -19,7 +19,7 @@ const WhatWeDo = (props) => {
         )
     return (
         <div className="d-flex flex-column bg-light mt-3">
-            <h3 className='text-center display-4 bg-light' onMouseOver={() => setShow({
+            <h3 className='text-center prim-txt display-4 bg-light' onMouseOver={() => setShow({
                             "default": true,
                             "process": false,
                             "web":false,
@@ -39,28 +39,28 @@ const WhatWeDo = (props) => {
                             "web":false,
                             "mobile": false,
                             "testing": false
-                    })}><FormatListBulletedIcon className="mr-2" />Our Process</ListGroup.Item>
+                    })}><FormatListBulletedIcon className="mr-3" /><span className="lead">Our Process</span></ListGroup.Item>
                         <ListGroup.Item className="bg-light mb-2" onMouseOver={() => setShow({
                             "default": false,
                             "process": false,
                             "web": true,
                             "mobile": false,
                             "testing": false
-                    })}><DesktopWindowsIcon className="mr-2" />Web Apps</ListGroup.Item>
+                    })}><DesktopWindowsIcon className="mr-3" /><span className="lead">Web Apps</span></ListGroup.Item>
                         <ListGroup.Item className="bg-light mb-2" onMouseOver={() => setShow({
                             "default": false,
                             "process": false,
                             "web":false,
                             "mobile": true,
                             "testing": false
-                    })}><PhoneAndroidIcon className="mr-2" />Mobile Apps</ListGroup.Item>
+                    })}><PhoneAndroidIcon className="mr-3" /><span className="lead">Mobile Apps</span></ListGroup.Item>
                         <ListGroup.Item className="bg-light" onMouseOver={() => setShow({
                             "default": false,
                             "process": false,
                             "web":false,
                             "mobile": false,
                             "testing": true
-                    })}><AssignmentTurnedInIcon className="mr-2" />Testing Services</ListGroup.Item>
+                    })}><AssignmentTurnedInIcon className="mr-3" /><span className="lead">Testing Services</span></ListGroup.Item>
                     </ListGroup>
                 </div>
                 <div className="col">

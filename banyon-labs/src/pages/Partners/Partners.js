@@ -7,15 +7,12 @@ export default class Partners extends Component {
       <div
         style={{
           color: "white",
-          "font-family": "bc-alphapipe, sans-serif",
-          fontSize: "22px",
         }}
       >
         <Row style={{ backgroundColor: "#24234d" }}>
           <Container className="pt-4 pb-4 text-center">
             <h1
-              className="display-3"
-              style={{ "font-family": "Acumin Variable Concept" }}
+              className="display-3 p-3"
             >
               Partners
             </h1>

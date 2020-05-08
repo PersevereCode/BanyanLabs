@@ -7,11 +7,13 @@ import Information from '../../components/Information'
 export default class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="container-fluid n-p p-0">
                 <Carousel />
-                <div className="max-w mx-auto">
+                <div className="container-fluid n-p p-0">
                     <WhoWeAre />
                     <WhatWeDo />
+                    </div>
+                    <div className="container-fluid n-p p-0">
                     <Information />
                 </div>
             </div>

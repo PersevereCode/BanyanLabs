@@ -12,8 +12,7 @@ export default class Team extends Component {
         <Row style={{ backgroundColor: "#24234d", color: "white" }}>
           <Container className="mt-4 text-center">
             <h1
-              className="display-3 "
-              style={{ fontFamily: "Acumin Variable Concept" }}
+              className="display-3 text-justify text-center p-3"
             >
               Team
             </h1>

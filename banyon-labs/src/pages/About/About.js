@@ -7,8 +7,6 @@ export default class About extends Component {
       <div
         style={{
           color: "white",
-          "font-family": "bc-alphapipe, sans-serif",
-          fontSize: "22px",
         }}
       >
         <Row style={{ backgroundColor: "#24234d" }}>
@@ -17,11 +15,11 @@ export default class About extends Component {
           <Container className="pt-4 pb-4 text-center">
             <h1
               className="display-3"
-              style={{ "font-family": "Acumin Variable Concept" }}
+             
             >
               About Us
             </h1>
-            <p>
+            <p className="lead text-justify">
               Banyan Labs is U.S. based, international for-profit development
               company created to provide high quality IT services while also
               making a positive contribution to the effort to reduce recidivsm
@@ -41,7 +39,7 @@ export default class About extends Component {
             className="pt-4 pb-4 text-center"
             style={{ color: "black" }}
           >
-            <p>
+            <p className="lead text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               ante sem, mollis eget ligula at, vehicula ultrices mauris. Aliquam
               in condimentum erat. Sed viverra lacus quis efficitur convallis.

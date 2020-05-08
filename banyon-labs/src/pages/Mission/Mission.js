@@ -7,19 +7,16 @@ export default class Mission extends Component {
       <div
         style={{
           color: "white",
-          "font-family": "bc-alphapipe, sans-serif",
-          fontSize: "22px",
         }}
       >
         <Row style={{ backgroundColor: "#24234d" }}>
           <Container className="pt-4 pb-4 text-center">
             <h1
               className="display-3"
-              style={{ "font-family": "Acumin Variable Concept" }}
             >
               Mission
             </h1>
-            <p>
+            <p className="lead text-justify p-2">
               At Banyan Labs our mission is, first, <b style={{color: "#1b723f"}}><u>client value</u></b> and, second, <b style={{color: "#1b723f"}}><u>associate growth</u></b>.
               <br />
               We have education, partnership, and mentoring programs in place which ensure that our clients recevie world-class development work on their projects while the men and women of Banyan Labs continue to learn and reine their technical skills.
@@ -31,7 +28,7 @@ export default class Mission extends Component {
             className="pt-4 pb-4 text-center"
             style={{ color: "black" }}
           >
-            <p>
+            <p className="lead text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               ante sem, mollis eget ligula at, vehicula ultrices mauris. Aliquam
               in condimentum erat. Sed viverra lacus quis efficitur convallis.
