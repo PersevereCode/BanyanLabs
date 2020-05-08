@@ -49,7 +49,7 @@ export default class About extends Component {
 
             <Divider style={{height:"2px"}} />
 
-            <Container className="py-4 mt-5 text-center">
+            <Container className="mt-4 lead text-justify">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 ante sem, mollis eget ligula at, vehicula ultrices mauris. Aliquam
