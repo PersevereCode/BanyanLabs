@@ -12,7 +12,7 @@ const WhatWeDo = (props) => {
     return(
         <div className='row px-5 justify-content-around bg-light'>
             <div className='d-flex flex-column align-items center justify-content-center col-12 my-3'>
-                <h1 className='text-center display-4'>What We Do</h1>
+                <h1 className='text-center text-dark display-4'>What We Do</h1>
             </div>
             <div className="d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-3 col-sm-12 mb-3 "
             >

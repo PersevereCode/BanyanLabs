@@ -86,7 +86,7 @@ export default function WhoWeAre() {
                 <div className="col-12 text-center mt-3">
                 <Link className="no-dec" to="/partners"><h3>Partners</h3></Link>
                     <div className="row justify-content-around">
-                        <img src={PLogo} className="mt-4" style={{"width": "500px", "height": "110px"}} />
+                        <img src={PLogo} className="mt-4" style={{minWidth: "300px", "height": "110px", maxWidth: "500px" }} />
                         <img src={NLogo} alt=""/>
                     </div>
                 </div>
