@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TeamMemberExpanded from "./TeamMemberExpanded";
-import { Card, Button, Row, CardGroup, CardDeck, Col } from "react-bootstrap";
+import { Card, Button, Row, CardDeck, Col } from "react-bootstrap";
 
 export default class TeamMember extends Component {
   constructor(props) {
