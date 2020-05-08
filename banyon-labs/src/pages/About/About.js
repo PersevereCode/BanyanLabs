@@ -2,41 +2,37 @@ import React, { Component } from "react";
 import { Container, Row } from "react-bootstrap";
 import Divider from '@material-ui/core/Divider';
 import './about.css'
-import Carousel2 from "../../components/Carousel2";
 
 export default class About extends Component {
   render() {
     return (
       <div
         style={{
-          // color: "white",
-          "font-family": "ledo",
+          color: "white",
           fontSize: "22px",
+          marginTop: "70px",
         }}
       >
         <Row className="justify-content-center"
-        // style= // {{ backgroundColor: "#24234d" }}
+        style={{ backgroundColor: "#24234d" }}
         >
           {" "}
           {/*Might be better to have a bacgrkound image instead of the color*/}
-            {/* <Container className=" pt-4 pb-4 text-left"
+            <Container className=" pt-4 pb-4 text-center"
             >
 
               <h1
-                className="display-3 pl-3"
-                style={{ "font-family": "Acumin Variable Concept", color:"#1b723f"}}
-              >
+                className="display-3 pl-3">
                 About Us
               </h1>
-            </Container> */}
-           <Carousel2 />
+            </Container>
         </Row>
         <Row>
           {/*Adding in some more text to see how things space out. Once we recevie the final text may need to be restyled.*/}
           <Container
-            className="py-4 px-4 text-center col-sm-12 col-md-7"
+            className="py-4 text-center col-sm-12 col-md-10 col-lg-6"
             style={{ color: "black" }}>
-            <Container className="py-4 px-4 mb-5 text-center bg-light">
+            <Container className="py-4 mb-5 text-center">
               <p>
                 Banyan Labs is U.S. based, international for-profit development
                 company created to provide high quality IT services while also
@@ -53,7 +49,7 @@ export default class About extends Component {
 
             <Divider style={{height:"2px"}} />
 
-            <Container className="py-4 px-4 mt-5 text-center bg-light">
+            <Container className="py-4 mt-5 text-center">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 ante sem, mollis eget ligula at, vehicula ultrices mauris. Aliquam
