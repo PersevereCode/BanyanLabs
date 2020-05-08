@@ -17,7 +17,7 @@ const AppRouter = () => (
         <div>
             <HeaderNav />
             {/* //Header Spacer because the HeaderNav is "fixed"  */}
-            <div className="mb-5"></div>
+            {/* <div className="mb-5"></div> */}
             <Switch>
                 <Route path="/" component={Home} exact={true} />
                 <Route path="/about_us" component={About} />

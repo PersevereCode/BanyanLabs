@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import NaicoTeam from "../../styles/images/naicoteam.jpg"
 
 export default class Partners extends Component {
   render() {
@@ -7,6 +8,8 @@ export default class Partners extends Component {
       <div
         style={{
           color: "white",
+          fontSize: "22px",
+          marginTop: "70px",
         }}
       >
         <Row style={{ backgroundColor: "#24234d" }}>
@@ -23,6 +26,10 @@ export default class Partners extends Component {
             className="pt-4 pb-4 "
             style={{ color: "black" }}
           >
+            <div>
+              
+              <Image className="mt-3 mb-4" src={NaicoTeam} fluid/>
+            </div>
             <Row>
               <Col lg={3}>
                 <Image src="./Pictures/naico-logo.jpg" fluid />
