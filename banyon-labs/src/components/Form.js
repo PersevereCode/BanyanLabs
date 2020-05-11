@@ -18,7 +18,7 @@ const onSubmit = (event) => {
     <div id="contact_us" className="outterMainDiv w-100">
       <div className="p-4 innerMainDiv col-9">
         <div className="row justify-content-center">
-          <h2 className="row justify-content-center mt-3 ml-5 mr-5 mb-5 p-3 getInTouch border border-white">Get in Touch</h2>
+          <h2 className="row justify-content-center mt-3 ml-5 mr-5 mb-5 p-3 getInTouch">Get in Touch</h2>
         </div>       
 
       <Form onSubmit={onSubmit}>
@@ -58,7 +58,7 @@ const onSubmit = (event) => {
           </Form.Group>
         </Form.Row>
 
-        <Button className="submit_color" type="submit">
+        <Button className="submit_color lead" type="submit">
           Submit
         </Button>
       </Form>

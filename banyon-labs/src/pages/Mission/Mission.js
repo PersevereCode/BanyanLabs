@@ -12,6 +12,20 @@ export default class Mission extends Component {
       accent: "#494d83",
     };
     return (
+      // <div
+      //   style={{
+      //     color: "white",
+      //   }}
+      // >
+      //   <Row style={{ backgroundColor: "#24234d" }}>
+      //     <Container className="pt-4 pb-4 text-center">
+      //       <h1
+      //         className="display-3"
+      //       >
+      //         Mission
+      //       </h1>
+      //       <p className="lead text-justify p-2">
+      //         At Banyan Labs our mission is, first, <b style={{color: "#1b723f"}}><u>client value</u></b> and, second, <b style={{color: "#1b723f"}}><u>associate growth</u></b>.
       <div className="main">
         <Row className='header'>
           <Container className="p-4 text-center">
@@ -35,7 +49,7 @@ export default class Mission extends Component {
           </Container>
         </Row>
         <Row>
-          <Container className="p-4 ">
+          <Container className="p-4 pb-4 text-center">
             <div>
               <div className="mt-2 pt-2 pb-2 mb-4">
                 <h2 className="sectionHeader">
@@ -44,7 +58,7 @@ export default class Mission extends Component {
                   </b>
                 </h2>
                 <br />
-                <p className="pb-4 divider">
+                <p className="pb-4 divider lead text-justify">
                   Mauris ante sem, mollis eget ligula at, vehicula ultrices
                   mauris. Aliquam in condimentum erat. Sed viverra lacus quis
                   efficitur convallis. Maecenas pellentesque lacus nec nunc
@@ -65,7 +79,7 @@ export default class Mission extends Component {
                   </b>
                 </h2>
                 <br />
-                <p className="pb-4 divider">
+                <p className="pb-4 divider lead text-justify">
                   Vitae facilisis. Curabitur vitae ornare quam. Sed ultrices
                   lacus sit amet orci molestie, quis faucibus arcu tempor.
                   Phasellus et nulla diam. Donec augue nisl, pellentesque ac
@@ -84,7 +98,7 @@ export default class Mission extends Component {
                   <b>Nunc tempus finibus cursus. Nulla faucibus.</b>
                 </h2>
                 <br />
-                <p>
+                <p className="lead text-justify">
                   Convallis leo non elementum in ut enim sed quam dignissim
                   ultrices non nec nisi. Quisque dapibus cursus mauris, non
                   pharetra sem suscipit nec. Cras in ornare ante. Cras neque

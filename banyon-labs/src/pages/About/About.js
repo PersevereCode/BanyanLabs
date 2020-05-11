@@ -32,7 +32,7 @@ export default class About extends Component {
           <Container
             className="py-4 text-center col-sm-12 col-md-10 col-lg-6"
             style={{ color: "black" }}>
-            <Container className="py-4 mb-5 text-center">
+            <Container className="lead text-justify">
               <p>
               Banyan Labs is a technology development company with a powerful social impact story. We provide quality web and mobile app creation, front and back end software development, quality assurance testing, and other software engineering services. We provide end-to-end product development, quality assurance, product and solution engineering services to assist customers in achieving their product development and business goals. Our vision is to empower men and women with skill sets that create a lifetime of new opportunities. 
               </p>
@@ -79,7 +79,7 @@ export default class About extends Component {
               </Table>
             </Container>
             <Divider style={{height:"2px"}} />
-            <Container className="py-4 mb-5 text-center">
+            <Container className="mt-4 lead text-justify">
               <p>
               Banyan Labs is co-located with Persevere’s Technology Institute in Tennessee to facilitate collaboration and efficiency. We are expected to have locations in Arizona and other states as both companies expand.
               </p>
