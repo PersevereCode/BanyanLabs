@@ -26,9 +26,9 @@ export default class Mission extends Component {
                   At Banyan Labs our mission is, first, <b>client value</b> and,
                   second, <b> associate growth</b>. We have education,
                   partnership, and mentoring programs in place which ensure that
-                  our clients recevie world-class development work on their
+                  our clients receive world-class development work on their
                   projects while the men and women of Banyan Labs continue to
-                  learn and reine their technical skills.
+                  learn and refine their technical skills.
                 </h3>
               </div>
               <div className="mt-2 pt-2 pb-2 mb-4">
