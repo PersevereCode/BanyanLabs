@@ -17,10 +17,15 @@ function Service(props) {
   </Row>
 
   <div id="features" className="d-flex flex-column justify-content-center align-items-center">
-
-  <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
+  {
+    props.diagram && 
+      <div className="row justify-content-center mb-3">
+        <img src={props.diagram} alt="img" className="px-5 col-md-9 col-sm-12 mx-auto max-hw" />
+      </div>
+  }
+  {/* <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
     <img id="appraisal-image" className="img-fluid rounded mb-3 mb-md-0" src={props.img} alt='img' />
-  </div>
+  </div> */}
   <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
     <h3>{props.h1}</h3>
     {/* <p>{props.p1}</p> */}
@@ -28,15 +33,50 @@ function Service(props) {
     <h3 className="mt-3">{props.h2}</h3>
     {/* <p>{props.p2}</p> */} 
     </div>
+    {
+      props.ul &&
+      <div className="mt-3">
+        <ul>
+          <li>
+            <h4>
+              Who are our personas?
+            </h4>
+          </li>
+          <li>
+            <h4>
+              What are their pain points, wants, and needs?
+            </h4>
+          </li>
+          <li>
+            <h4>
+              What problems are we trying to solve for them?
+            </h4>
+          </li>
+          <li>
+            <h4>
+              What value are we providing?
+            </h4>
+          </li>
+          <li>
+            <h4>
+              What user experience flows are we implementing?
+            </h4>
+          </li>
+        </ul>
+      </div>
+    }
+    <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
+      <h3>{props.h3}</h3>
+    </div>
   </div>
 
   <br />
-  {
+  {/* {
     props.diagram && 
       <div className="row justify-content-center mt-3">
         <img src={props.diagram} alt="img" className="px-5 col-md-9 col-sm-12 mx-auto max-hw" />
       </div>
-  }
+  } */}
   {/* <h2 id="page-header"><strong>We Also Offer:</strong></h2> */}
   {/* <div id="features" className="row">
     <div className="col-sm-6">
