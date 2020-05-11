@@ -4,6 +4,9 @@ import Divider from '@material-ui/core/Divider';
 import './about.css'
 
 export default class About extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div
@@ -50,7 +53,7 @@ export default class About extends Component {
 
             <Divider style={{height:"2px"}} />
 
-            <Container className="py-4 mt-5">
+            <Container className="py-4 mt-3">
               <Table bordered>
                 <tbody style={{backgroundColor: '#24234d', color: 'white'}}>
                   <td>
