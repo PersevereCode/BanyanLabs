@@ -19,8 +19,6 @@ export default class About extends Component {
         <Row className="justify-content-center"
         style={{ backgroundColor: "#24234d" }}
         >
-          {" "}
-          {/*Might be better to have a bacgrkound image instead of the color*/}
             <Container className=" pt-4 pb-4 text-center"
             >
 
@@ -31,7 +29,6 @@ export default class About extends Component {
             </Container>
         </Row>
         <Row>
-          {/*Adding in some more text to see how things space out. Once we recevie the final text may need to be restyled.*/}
           <Container
             className="py-4 text-center col-sm-12 col-md-10 col-lg-6"
             style={{ color: "black" }}>
@@ -76,7 +73,7 @@ export default class About extends Component {
                     Quality Assurance
                   </td>
                   <td>
-                  >End-to end testing, manual and automated testing, and continuous integration
+                  End-to-end testing, manual and automated testing, and continuous integration
                   </td>
                 </tbody>
               </Table>
@@ -89,14 +86,6 @@ export default class About extends Component {
             </Container>
           </Container>
         </Row>
-        {/* <Row style={{ backgroundColor: "#511135" }}>
-          <Container className="text-center mb-4">
-            <h1 className="display-5 p-2 mt-4 mb-4 border border-white">
-              Get in Touch
-            </h1>
-            
-          </Container>
-        </Row> */}
       </div>
     );
   }
