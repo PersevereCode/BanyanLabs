@@ -16,7 +16,7 @@ const WhatWeDo = (props) => {
             <div className='d-flex flex-column align-items center justify-content-center col-12 my-3'>
                 <h1 className='text-center display-4'>What We Do</h1>
             </div>
-            <div className='d-flex flex-column align-items-center justify-content-center col-md-12 col-lg-12 col-sm-12 mb-3'
+            <div className='d-flex flex-column align-items-center justify-content-center col-md-8 col-lg-8 col-sm-12 mb-3'
             >
                 <Link to='/services/1' className='d-flex flex-column no-dec'>
                     <FormatListBulletedIcon style={iconStyles} className='mb-3 align-self-center' />
@@ -26,7 +26,7 @@ const WhatWeDo = (props) => {
                 <p className='text-center mt-4'>
                 At Banyan Labs, we provide tailor-made business solutions that enhance your opportunities and streamline your processes. We believe in long term partnerships that create extraordinary experiences.</p>
             </div>
-                <div className='d-flex flex-column align-items-center justify-content-center col-md-4 col-lg-4 col-sm-12 mb-3'>
+                <div className='d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6 col-sm-12 mb-3'>
                     <Link to='/services/2' className='d-flex flex-column no-dec'>
                         <DesktopWindowsIcon style={iconStyles} className='mb-3 align-self-center' />
                         <h2 to='/services/2' className='mb-3'>Web Apps</h2> 
@@ -34,7 +34,7 @@ const WhatWeDo = (props) => {
                     <p className='text-center'>
                     Front end, back end, and design. Let us help you make your best impression online.</p>
                 </div>
-                <div className='d-flex flex-column align-items-center justify-content-center col-md-4 col-lg-4 col-sm-12 mb-3'>
+                <div className='d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6 col-sm-12 mb-3'>
                     <Link to='/services/3' className='d-flex flex-column no-dec'>
                         <PhoneAndroidIcon style={iconStyles} className='mb-3 align-self-center' />
                         <h2 to='/services/3' className='mb-3'>Mobile Apps</h2>
@@ -42,7 +42,7 @@ const WhatWeDo = (props) => {
                     <p className='text-center'>
                     iOS? Check. Android? Check. Cross-platform solutions? Yeah, we can do that.</p>
                 </div>
-                <div className='d-flex flex-column align-items-center justify-content-center col-md-4 col-lg-4 col-sm-12 mb-3'>
+                <div className='d-flex flex-column align-items-center justify-content-center col-md-8 col-lg-18 col-sm-12 mb-3'>
                     <Link to='/services/4' className='d-flex flex-column no-dec'>
                         <AssignmentTurnedInIcon style={iconStyles} className='mb-3 align-self-center' />
                     <h2 to='/services/4' className='text-center mb-3'>Quality Assurance</h2>
