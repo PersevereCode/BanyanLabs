@@ -13,86 +13,49 @@ export default class Mission extends Component {
     };
     return (
       <div className="main">
-        <Row className='header'>
+        <Row className="header">
           <Container className="p-4 text-center">
             <h1 className="display-3">Mission</h1>
-            <p>
-              At Banyan Labs our mission is, first,{" "}
-              <b>
-                <u>client value</u>
-              </b>{" "}
-              and, second,{" "}
-              <b>
-                <u>associate growth</u>
-              </b>
-              .
-              <br />
-              We have education, partnership, and mentoring programs in place
-              which ensure that our clients recevie world-class development work
-              on their projects while the men and women of Banyan Labs continue
-              to learn and reine their technical skills.
-            </p>
           </Container>
         </Row>
         <Row>
-          <Container className="p-4 ">
+          <Container className="p-4 text-justify">
             <div>
               <div className="mt-2 pt-2 pb-2 mb-4">
-                <h2 className="sectionHeader">
-                  <b>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </b>
-                </h2>
-                <br />
-                <p className="pb-4 divider">
-                  Mauris ante sem, mollis eget ligula at, vehicula ultrices
-                  mauris. Aliquam in condimentum erat. Sed viverra lacus quis
-                  efficitur convallis. Maecenas pellentesque lacus nec nunc
-                  pulvinar, non posuere velit mattis. Phasellus purus mi,
-                  feugiat quis purus sit amet, consectetur venenatis mi. Fusce
-                  id erat nibh. Phasellus vitae massa sed diam dapibus volutpat
-                  vel sit amet tellus. Orci varius natoque penatibus et magnis
-                  dis parturient montes, nascetur ridiculus mus. Cras faucibus
-                  sed eros a tincidunt. Morbi sagittis sem lectus, at facilisis
-                  augue finibus a.
-                </p>
+                <h3 className="pb-4 divider">
+                  At Banyan Labs our mission is, first, <b>client value</b> and,
+                  second, <b> associate growth</b>. We have education,
+                  partnership, and mentoring programs in place which ensure that
+                  our clients recevie world-class development work on their
+                  projects while the men and women of Banyan Labs continue to
+                  learn and reine their technical skills.
+                </h3>
               </div>
               <div className="mt-2 pt-2 pb-2 mb-4">
                 <h2 className="sectionHeader">
-                  <b>
-                    Maecenas scelerisque vehicula tellus laoreet malesuada
-                    aenean.
-                  </b>
+                  <b>CLIENT VALUE</b>
                 </h2>
                 <br />
-                <p className="pb-4 divider">
-                  Vitae facilisis. Curabitur vitae ornare quam. Sed ultrices
-                  lacus sit amet orci molestie, quis faucibus arcu tempor.
-                  Phasellus et nulla diam. Donec augue nisl, pellentesque ac
-                  eleifend nec, tincidunt sit amet libero. Proin ut aliquam ex,
-                  eu ultrices nunc. Curabitur urna dui, lacinia in quam non,
-                  fringilla interdum felis. Nunc sit amet orci vitae nisi
-                  sollicitudin tempor ut vitae ipsum. Nulla luctus lorem quis
-                  augue blandit, at interdum nibh aliquam. Vestibulum ante ipsum
-                  primis in faucibus orci luctus et ultrices posuere cubilia
-                  curae; Integer semper tortor magna, at tincidunt libero
-                  dignissim eget.
-                </p>
+                <h3 className="pb-4 divider">
+                  Client value is our first priority as we provide quality
+                  solutions to companies at competitive prices. Our partnership
+                  with Naico, a richly talented IT services company, in
+                  operation since 2005, provides senior level architects and
+                  engineers to mentor and oversee all developer teams to ensure
+                  quality and success on any job, large or small.
+                </h3>
               </div>
               <div className="mt-2 pt-2 pb-2 mb-4">
                 <h2 className="sectionHeader">
-                  <b>Nunc tempus finibus cursus. Nulla faucibus.</b>
+                  <b>ASSOCIATE GROWTH</b>
                 </h2>
                 <br />
-                <p>
-                  Convallis leo non elementum in ut enim sed quam dignissim
-                  ultrices non nec nisi. Quisque dapibus cursus mauris, non
-                  pharetra sem suscipit nec. Cras in ornare ante. Cras neque
-                  arcu, bibendum atincidunt ac, vehicula vitae lectus. Mauris
-                  viverra nec est eget dapibus. Proin sed maximus mauris, sit
-                  amet ultrices mi. Ut sagittis dui a arcu volutpat feugiat.
-                  Mauris luctus erat urna, vitae volutpat dui luctus eu.
-                </p>
+                <h3 className="pb-4">
+                  Associate growth is fundamental to our success. It’s what
+                  differentiates us from the industry, and we’re dedicated to
+                  our social impact mission. Above all, we are proud of the
+                  passion, growth, and grit of our developers.
+                </h3>
               </div>
             </div>
           </Container>
