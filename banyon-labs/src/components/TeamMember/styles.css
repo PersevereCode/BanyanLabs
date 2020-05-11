@@ -14,13 +14,13 @@
     }
   } */
   
-  /* Small devices (landscape phones, 576px and up) */
+  /* Small devices (landscape phones, 576px and up)
   @media (max-width: 575.98px) {
     .cardImage {
       height: auto;
       max-height: 5000px;
-      /* width: auto;
-      max-width: 5000px; */
+      width: auto;
+      max-width: 5000px;
     }
   }
   
@@ -29,8 +29,8 @@
       .cardImage {
           height: auto;
           max-height: 266px;
-          /* width: auto;
-          max-width: 251px; */
+          width: auto;
+          max-width: 251px;
         }
   }
   
@@ -39,8 +39,8 @@
       .cardImage {
           height: auto;
           max-height: 266px;
-          /* width: auto;
-          max-width: 500px; */
+          width: auto;
+          max-width: 500px;
         }
   }
-  
+   
