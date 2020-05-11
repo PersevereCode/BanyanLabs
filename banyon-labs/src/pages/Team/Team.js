@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Row, Container } from "react-bootstrap";
-import TeamMember from "../../components/TeamMember";
+import TeamMember from "../../components/TeamMember/TeamMember";
 import { TEAMMEMBERS } from "./teamMembers";
 
 export default class Team extends Component {
