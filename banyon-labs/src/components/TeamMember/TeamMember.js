@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import TeamMemberExpanded from "./TeamMemberExpanded";
+import TeamMemberExpanded from "../TeamMemberExpanded";
 import { Card, Button, Row, CardDeck, Col } from "react-bootstrap";
+
+import './styles.css'
 
 export default class TeamMember extends Component {
   constructor(props) {
@@ -30,10 +32,10 @@ export default class TeamMember extends Component {
   render() {
     const members = this.props.teamMembers.map((member) => {
       return (
-        <Col sm={12} md={6} lg={3}>
-          <Card key={member.id} className="m-2">
+        <Col sm={12} md={12} lg={3}key={member.id}>
+          <Card  className="m-2">
             <Card.Body style={{border: "#24234d solid 3px"}}>
-              <Card.Img variant="top" src={member.image} />
+              <Card.Img variant="top" src={member.image} className='cardImage' />
               <Card.Title style={{textDecoration: "underline", textDecorationColor: "#494d83",fontSize: "1.35em"}}>{member.name}</Card.Title>
               <Card.Subtitle>
                 <b>{member.title}</b>
