@@ -109,6 +109,6 @@ export const TEAMMEMBERS = [
     name: "Robert Puzey",
     title: "Product Manager",
     image: "./pictures/Team/robertP.png",
-    bio: "My goal is to help create products that people love. With 20+ years of experience managing products I have:\n\t•Created CaptionCall which is now a $300+ million division of Sorenson Communications\n\t•Managed dozens of hardware, software, and service products through their lifecycles\n\t•Leveraged Agile, Scrum, Kanban methodologies as a Product Owner\n\t•Designed meaningful customer experiences\n•As a servant leader, helped others develop & perform",
+    bio: "My goal is to help create products that people love. With 20+ years of experience managing products I have:\n\t•Created CaptionCall which is now a $300+ million division of Sorenson Communications\n\t•Managed dozens of hardware, software, and service products through their lifecycles\n\t•Leveraged Agile, Scrum, Kanban methodologies as a Product Owner\n\t•Designed meaningful customer experiences\n•As a servant leader, helped others develop & perform.",
   },
 ];
