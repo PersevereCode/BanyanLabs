@@ -10,7 +10,8 @@ import Service from "../../components/Services";
 // import Jumbotron from "react-bootstrap/Jumbotron";
 import "./serve.css";
 import Diagram from '../../styles/images/ourprocess.png'
-// import Diagram2 from '../../styles/images/'
+import Diagram2 from '../../styles/images/webappspic.png'
+
 
 class Services extends Component {
   componentDidMount() {
@@ -45,7 +46,7 @@ class Services extends Component {
               img="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/121002887/original/9f2174ec1236e128859a8ad2ff98a5a21a0230b7/sdwdwdwwqwfhijwwfwefh-eif-wehfiwehf-i-hwei.jpg"
               title="Web Applications"
               h1="Front end, back end, and design. Let us help you make your best impression online."
-              // diagram2={Diagram2}
+              diagram2={Diagram2}
               h3="A high-level architecture diagram of some technologies we can use to implement your website."
             />
           
@@ -58,7 +59,8 @@ class Services extends Component {
             <Service
               img="https://www.ipraxa.com/blog/wp-content/uploads/2018/09/mobile-app-development-technologies.png"
               title="Mobile Applications"
-              h1="iOS? Check. Android? Check. Cross-platform solutions? Yeah, we can do that."
+              mobile
+              // h1="iOS? Check. Android? Check. Cross-platform solutions? Yeah, we can do that."
               h2="We work with popular mobile application frameworks to efficiently make your mobile app ideas happen."
             />
            
