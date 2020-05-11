@@ -2,7 +2,7 @@ export const TEAMMEMBERS = [
   {
     id: 0,
     name: "Alex Marston",
-    title: "Develoer",
+    title: "Developer",
     image: "./pictures/Team/alexm.jpg",
     bio: "",
   },
