@@ -32,7 +32,7 @@ export default class Partners extends Component {
           >
             <div>
 
-              <Image className="mt-3 mb-4" src={NaicoTeam} fluid />
+              <Image className="mt-2 mb-4" src={NaicoTeam} fluid />
             </div>
             <Row>
               <Col lg={3}>
@@ -45,7 +45,7 @@ export default class Partners extends Component {
               </Col>
             </Row>
             <div>
-              <Image className="mt-3 mb-4" src={NaicoTeam} fluid />
+              <Image className="mt-5 mb-4" src={NaicoTeam} fluid />
             </div>
             <Row>
               <Col lg={3}>
