@@ -18,16 +18,30 @@ export default function WhoWeAre() {
             {/* <h3 className="text-center col-12 mt-3"><Link className="no-dec" to="/about_us">About Us</Link></h3>    */}
                 
                 <div>
+                    <Link className="no-dec" to="/about_us">
+                    <h3 className="header-size-2 pt-3 sec-txt">About</h3>
+                    </Link>
+                    <p className="text-justify lead">We are a collection of people dedicated to delivering the highest quality service to our customers while impacting social change. Everything at Banyan Labs begins and ends with technology: We provide the best in end-to-end product development, quality assurance, and engineering solutions to help our customers reach their development and business goals. But we’re more than what we do for the market, we measure ourselves by what we do for PEOPLE.
+                    Our vision is to empower justice-involved men and women to succeed in software development careers by providing service, experience, and opportunities at every turn.</p>
                     <Link className="no-dec" to="/mission"><h3 className="header-size-2 sec-txt">Mission</h3></Link>
                     <p className="text-justify lead">Client value. Associate growth.</p>
-                    <h4 className="header-size-2 pt-3 sec-txt">Client Value</h4>
-                    <p className="text-justify lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptates porro non alias? Quidem, repellendus. Iure odit officiis quas. Earum voluptatibus suscipit deserunt illum totam fugiat asperiores officia laborum qui! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate natus temporibus ipsum, eveniet magni nobis nesciunt laboriosam ex corporis, rem maxime ullam aliquam ipsam beatae debitis, voluptates consequuntur dolores non.</p>
-                    <h4 className="header-size-2 pt-3 sec-txt">Associate Opportunity</h4>
-                    <p className="text-justify lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptates porro non alias? Quidem, repellendus. Iure odit officiis quas. Earum voluptatibus suscipit deserunt illum totam fugiat asperiores officia laborum qui! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate natus temporibus ipsum, eveniet magni nobis nesciunt laboriosam ex corporis, rem maxime ullam aliquam ipsam beatae debitis, voluptates consequuntur dolores non.</p>
+                    {/* <h4 className="header-size-2 pt-3 sec-txt">Associate Opportunity</h4>
+                    <p className="text-justify lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptates porro non alias? Quidem, repellendus. Iure odit officiis quas. Earum voluptatibus suscipit deserunt illum totam fugiat asperiores officia laborum qui! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate natus temporibus ipsum, eveniet magni nobis nesciunt laboriosam ex corporis, rem maxime ullam aliquam ipsam beatae debitis, voluptates consequuntur dolores non.</p> */}
                 </div>
                 <div>
                     <Link className="no-dec" to="/team"><h3 className="text-center display-4 prim-txt">Team</h3></Link>
-                    <img className="med-pic" src={Team} alt="image"/>
+                    {/* <img className="med-pic" src={Team} alt="image"/> */}
+                    {/* <Figure>
+                        <Figure.Image
+                        height={350}
+                        maxWidth={750}
+                        src={Team}
+                        />
+                        <Figure.Caption>
+                        “The strength of the team is each individual member. The strength of each member is the team.” — Phil Jackson
+
+                        </Figure.Caption>
+                    </Figure> */}
                 </div>
                 {/* <div className="mt-4">
                     
