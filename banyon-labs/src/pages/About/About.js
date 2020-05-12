@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Table } from "react-bootstrap";
 import Divider from '@material-ui/core/Divider';
 import './about.css'
 
 export default class About extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div
@@ -16,8 +19,6 @@ export default class About extends Component {
         <Row className="justify-content-center"
         style={{ backgroundColor: "#24234d" }}
         >
-          {" "}
-          {/*Might be better to have a bacgrkound image instead of the color*/}
             <Container className=" pt-4 pb-4 text-center"
             >
 
@@ -28,69 +29,63 @@ export default class About extends Component {
             </Container>
         </Row>
         <Row>
-          {/*Adding in some more text to see how things space out. Once we recevie the final text may need to be restyled.*/}
           <Container
             className="py-4 text-center col-sm-12 col-md-10 col-lg-6"
             style={{ color: "black" }}>
-            <Container className="py-4 mb-5 text-center">
+            <Container className="lead text-justify">
               <p>
-                Banyan Labs is U.S. based, international for-profit development
-                company created to provide high quality IT services while also
-                making a positive contribution to the effort to reduce recidivism
-                and empower justice involved individuals to succeed in well-paying
-                jobs in the tech industry.
-                <br />
-                Co-located with Persevere, Banyan Labs employs Persevere
-                participants who have completed their training to work as junior
-                developers. providing them with supervision, mentoring, support
-                and valuable experience to launch their careers as developers.
+              Banyan Labs is a technology development company with a powerful social impact story. We provide quality web and mobile app creation, front and back end software development, quality assurance testing, and other software engineering services. We provide end-to-end product development, quality assurance, product and solution engineering services to assist customers in achieving their product development and business goals. Our vision is to empower men and women with skill sets that create a lifetime of new opportunities. 
+              </p>
+              <p>
+              In the United State, we face a serious problem with recidivism rates upwards of 70% (National Institute of Justice). Persevere, a national non-profit and Banyan Labs partner, is solving this problem as an education and training program to help with reintegration skills.
+              </p>
+              <p>
+              Banyan Labs was created out of the need to place Persevere graduates into jobs through an on-the-job training program. Persevere teaches justice-involved individuals how to code and certifies them with six industry-recognized certifications, including Full Stack Developer. Banyan Labs hires these technology graduates, offering them mentoring from experienced technology partners, and teaching them how to excel on cross-functional development teams.
+              </p>
+              <p>
+              Working with Banyan Labs provides your business with innovative tech solutions and opportunities to make lasting, positive social change.
+              Our work is proven, professional, and affordable. We’d love to talk with you about your next project.
               </p>
             </Container>
 
             <Divider style={{height:"2px"}} />
 
-            <Container className="py-4 mt-5 text-center">
+            <Container className="py-4 mt-3 lead text-justify">
+              <Table bordered>
+                <tbody style={{backgroundColor: '#24234d', color: 'white'}}>
+                  <td>
+                    Web App Development
+                  </td>
+                  <td>
+                    Custom app and database development, hosting, support, and maintenance
+                  </td>
+                </tbody>
+                <tbody style={{backgroundColor: '#1b723f', color: 'white'}}>
+                  <td>
+                    Mobile App Development
+                  </td>
+                  <td>
+                    iOS and Android native apps available through the app stores
+                  </td>
+                </tbody>
+                <tbody style={{backgroundColor: '#511135', color: 'white'}}>
+                  <td>
+                    Quality Assurance
+                  </td>
+                  <td>
+                  End-to-end testing, manual and automated testing, and continuous integration
+                  </td>
+                </tbody>
+              </Table>
+            </Container>
+            <Divider style={{height:"2px"}} />
+            <Container className="mt-4 lead text-justify">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ante sem, mollis eget ligula at, vehicula ultrices mauris. Aliquam
-                in condimentum erat. Sed viverra lacus quis efficitur convallis.
-                Maecenas pellentesque lacus nec nunc pulvinar, non posuere velit
-                mattis. Phasellus purus mi, feugiat quis purus sit amet,
-                consectetur venenatis mi. Fusce id erat nibh. Phasellus vitae
-                massa sed diam dapibus volutpat vel sit amet tellus. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Cras faucibus sed eros a tincidunt. Morbi sagittis
-                sem lectus, at facilisis augue finibus a. Maecenas scelerisque
-                vehicula tellus laoreet malesuada aenean . vitae facilisis.
-                Curabitur vitae ornare quam. Sed ultrices lacus sit amet orci
-                molestie, quis faucibus arcu tempor. Phasellus et nulla diam.
-                Donec augue nisl, pellentesque ac eleifend nec, tincidunt sit amet
-                libero. Proin ut aliquam ex, eu ultrices nunc. Curabitur urna dui,
-                lacinia in quam non, fringilla interdum felis. Nunc sit amet orci
-                vitae nisi sollicitudin tempor ut vitae ipsum. Nulla luctus lorem
-                quis augue blandit, at interdum nibh aliquam. Vestibulum ante
-                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                curae; Integer semper tortor magna, at tincidunt libero dignissim
-                eget. Nunc tempus finibus cursus. Nulla faucibus convallis leo non
-                elementum. In ut enim sed quam dignissim ultrices non nec nisi.
-                Quisque dapibus cursus mauris, non pharetra sem suscipit nec. Cras
-                in ornare ante. Cras neque arcu, bibendum atincidunt ac, vehicula
-                vitae lectus. Mauris viverra nec est eget dapibus. Proin sed
-                maximus mauris, sit amet ultrices mi. Ut sagittis dui a arcu
-                volutpat feugiat. Mauris luctus erat urna, vitae volutpat dui
-                luctus eu.
+              Banyan Labs is co-located with Persevere’s Technology Institute in Tennessee to facilitate collaboration and efficiency. We are expected to have locations in Arizona and other states as both companies expand.
               </p>
             </Container>
           </Container>
         </Row>
-        {/* <Row style={{ backgroundColor: "#511135" }}>
-          <Container className="text-center mb-4">
-            <h1 className="display-5 p-2 mt-4 mb-4 border border-white">
-              Get in Touch
-            </h1>
-            
-          </Container>
-        </Row> */}
       </div>
     );
   }
