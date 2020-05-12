@@ -32,7 +32,7 @@ export default class TeamMember extends Component {
   render() {
     const members = this.props.teamMembers.map((member) => {
       return (
-        <Col sm={12} md={6} lg={3}key={member.id}>
+        <Col sm={12} md={6} lg={3} key={member.id}>
           <Card  className="m-2">
             <Card.Body style={{border: "#24234d solid 3px"}}>
               <Card.Img variant="top" src={member.image} className='cardImage' />
