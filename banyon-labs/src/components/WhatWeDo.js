@@ -4,8 +4,6 @@ import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn'
 import DesktopWindowsIcon from '@material-ui/icons/DesktopWindows'
 import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted'
 import { Link } from 'react-router-dom'
-import Process from '../styles/images/ourprocess.png'
-import { Image } from 'react-bootstrap'
 
 const WhatWeDo = (props) => {
     const iconStyles = {
@@ -22,8 +20,6 @@ const WhatWeDo = (props) => {
                     <FormatListBulletedIcon style={iconStyles} className='mb-3 align-self-center' />
                     <h2 className='mb-3'>Our Process</h2>
                 </Link> 
-                {/* <Image src={Process} style={{height: "auto", width: '50vw', maxHeight: '400px', maxWidth: '800px'}} />
-                <p className='text-center mt-4'> */}
                 <p className="text-center">Banyan Labs will work closely with you to gather product requirements before presenting a proposal. Once given the green light, we will refine and prioritize your user stories and begin an iterative product development cycle which includes regular product demos and, as required, user testing. Communication and status update with our clients is a top priority.</p>
                 <p className="text-center">At Banyan Labs, we provide tailor-made business solutions that enhance your opportunities and streamline your processes. We believe in long term partnerships that create extraordinary experiences.</p>
             </div>
