@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import NaicoTeam from "../../styles/images/naicoteam.jpg"
-// import PersevereTeam from "../../styles/images/persevereteam.jpg"
+import PersevereTeam from "../../styles/images/persevereteam.jpg"
 
 export default class Partners extends Component {
   render() {
@@ -43,7 +43,7 @@ export default class Partners extends Component {
               </Col>
             </Row>
             <div>
-              <Image className="mt-5 mb-4" src={NaicoTeam} fluid />
+              <Image className="mt-5 mb-4" src={PersevereTeam} fluid />
             </div>
             <Row>
               <Col lg={3}>
