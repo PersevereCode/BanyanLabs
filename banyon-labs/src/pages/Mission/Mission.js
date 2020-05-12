@@ -12,6 +12,20 @@ export default class Mission extends Component {
       accent: "#494d83",
     };
     return (
+      // <div
+      //   style={{
+      //     color: "white",
+      //   }}
+      // >
+      //   <Row style={{ backgroundColor: "#24234d" }}>
+      //     <Container className="pt-4 pb-4 text-center">
+      //       <h1
+      //         className="display-3"
+      //       >
+      //         Mission
+      //       </h1>
+      //       <p className="lead text-justify p-2">
+      //         At Banyan Labs our mission is, first, <b style={{color: "#1b723f"}}><u>client value</u></b> and, second, <b style={{color: "#1b723f"}}><u>associate growth</u></b>.
       <div className="main">
         <Row className="header">
           <Container className="p-4 text-center">
@@ -22,7 +36,7 @@ export default class Mission extends Component {
           <Container className="p-4 text-justify">
             <div>
               <div className="mt-2 pt-2 pb-2 mb-4">
-                <h3 className="pb-4 divider">
+                <h3 className="pb-4 divider lead text-justify">
                   At Banyan Labs our mission is, first, <b>client value</b> and,
                   second, <b> associate growth</b>. We have education,
                   partnership, and mentoring programs in place which ensure that
@@ -36,7 +50,7 @@ export default class Mission extends Component {
                   <b>CLIENT VALUE</b>
                 </h2>
                 <br />
-                <h3 className="pb-4 divider">
+                <h3 className="pb-4 divider lead text-justify">
                   Client value is our first priority as we provide quality
                   solutions to companies at competitive prices. Our partnership
                   with Naico, a richly talented IT services company, in
@@ -50,7 +64,7 @@ export default class Mission extends Component {
                   <b>ASSOCIATE GROWTH</b>
                 </h2>
                 <br />
-                <h3 className="pb-4">
+                <h3 className="pb-4 lead text-justify">
                   Associate growth is fundamental to our success. It’s what
                   differentiates us from the industry, and we’re dedicated to
                   our social impact mission. Above all, we are proud of the

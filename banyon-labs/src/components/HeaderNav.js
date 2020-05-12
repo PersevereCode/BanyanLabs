@@ -34,7 +34,7 @@ const HeaderNav = (props) => {
                                 <Dropdown.Item href="/services/1">Our Process</Dropdown.Item>
                                 <Dropdown.Item href="/services/2">Web Apps</Dropdown.Item>
                                 <Dropdown.Item href="/services/3">Mobile Apps</Dropdown.Item>
-                                <Dropdown.Item href="/services/4">Testing Services</Dropdown.Item>
+                                <Dropdown.Item href="/services/4">Quality Assurance</Dropdown.Item>
                             </NavDropdown>
                             <Nav.Link className="mx-2 mr-lg-5" href="#contact_us">Contact</Nav.Link>
                         </Nav>
