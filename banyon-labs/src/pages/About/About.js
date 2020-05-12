@@ -46,9 +46,9 @@ export default class About extends Component {
               Working with Banyan Labs provides your business with innovative tech solutions and opportunities to make lasting, positive social change.
               Our work is proven, professional, and affordable. We’d love to talk with you about your next project.
               </p>
+            <Divider style={{height:"2px"}} />
             </Container>
 
-            <Divider style={{height:"2px"}} />
 
             <Container className="py-4 mt-3 lead text-justify">
               <Table bordered>
@@ -77,9 +77,9 @@ export default class About extends Component {
                   </td>
                 </tbody>
               </Table>
+            <Divider style={{height:"2px", marginTop: "40px"}} />
             </Container>
-            <Divider style={{height:"2px"}} />
-            <Container className="mt-4 lead text-justify">
+            <Container className="mt-2 lead text-justify">
               <p>
               Banyan Labs is co-located with Persevere’s Technology Institute in Tennessee to facilitate collaboration and efficiency. We are expected to have locations in Arizona and other states as both companies expand.
               </p>

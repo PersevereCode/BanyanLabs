@@ -1,7 +1,7 @@
 #service-card {
     background-color: #f8f9fa !important;
       font-weight: bold;
-      font-family: Verdana, Geneva, Tahoma, serif;
+      /* font-family: Verdana, Geneva, Tahoma, serif; */
       color: rgb(221, 198, 198);
       text-shadow: black 2px 1px;
       

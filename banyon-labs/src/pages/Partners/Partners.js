@@ -15,6 +15,7 @@ export default class Partners extends Component {
           fontSize: "22px",
           marginTop: "70px",
         }}
+        className="lead"
       >
         <Row style={{ backgroundColor: "#24234d" }}>
           <Container className="pt-4 pb-4 text-center">
