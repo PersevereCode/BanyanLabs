@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import NaicoTeam from "../../styles/images/naicoteam.jpg"
-import PersevereTeam from "../../styles/images/persevereteam.jpg"
+// import PersevereTeam from "../../styles/images/persevereteam.jpg"
 
 export default class Partners extends Component {
   render() {
