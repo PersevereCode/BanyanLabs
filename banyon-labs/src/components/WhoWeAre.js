@@ -7,8 +7,8 @@ import { Link } from "react-router-dom"
 import Team from '../styles/images/team.jpg'
 import { Figure } from 'react-bootstrap'
 
-export default function WhoWeAre() {
 
+export default function WhoWeAre() {
     return (
         <div className="row justify-content-center p-5">
             <div className="text-center">
@@ -123,7 +123,8 @@ export default function WhoWeAre() {
                         </Figure.Caption>
                     </Figure>
                 </div>
-            
         </div>
-    )
+      </div>
+    </div>
+  );
 }
