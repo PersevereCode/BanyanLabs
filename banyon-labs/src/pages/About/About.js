@@ -50,7 +50,7 @@ export default class About extends Component {
 
             <Divider style={{height:"2px"}} />
 
-            <Container className="mt-4 lead text-justify">
+            <Container className="py-4 mt-3 lead text-justify">
               <Table bordered>
                 <tbody style={{backgroundColor: '#24234d', color: 'white'}}>
                   <td>
@@ -79,7 +79,7 @@ export default class About extends Component {
               </Table>
             </Container>
             <Divider style={{height:"2px"}} />
-            <Container className="py-4 mb-5 text-center">
+            <Container className="mt-4 lead text-justify">
               <p>
               Banyan Labs is co-located with Persevere’s Technology Institute in Tennessee to facilitate collaboration and efficiency. We are expected to have locations in Arizona and other states as both companies expand.
               </p>

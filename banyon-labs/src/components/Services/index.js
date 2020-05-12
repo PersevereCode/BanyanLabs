@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Row } from 'react-bootstrap'
+import { Container, Row, Table} from 'react-bootstrap'
 import "./style.css";
+import CheckIcon from '@material-ui/icons/Check';
 
 function Service(props) {
   return (
@@ -17,26 +18,106 @@ function Service(props) {
   </Row>
 
   <div id="features" className="d-flex flex-column justify-content-center align-items-center">
-
-  <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
+  {
+    props.diagram && 
+      <div className="row justify-content-center mb-3">
+        <img src={props.diagram} alt="img" className="px-5 col-md-9 col-sm-12 mx-auto max-hw" />
+      </div>
+  }
+  {
+    props.mobile &&
+        <Table style={{width: '50vw'}} className='mt-4' borderless>
+          <tbody>
+            <tr>
+              <td>
+                <h4>iOS?</h4>
+              </td>
+              <td>
+                <CheckIcon className="ml-3" style={{fontSize: '28'}} />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Android?</h4>
+              </td>
+              <td>
+              <CheckIcon className="ml-3" style={{fontSize: '28'}} />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Cross-platform solutions?</h4>
+              </td>
+              <td>
+              <CheckIcon className="ml-3" style={{fontSize: '28'}} />
+              </td>
+            </tr>
+            <tr>
+              <td colSpan="2" className='text-center'><h3>Yeah, we can do that</h3></td>
+            </tr>
+          </tbody>
+        </Table>
+  }
+  {/* <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
     <img id="appraisal-image" className="img-fluid rounded mb-3 mb-md-0" src={props.img} alt='img' />
-  </div>
+  </div> */}
   <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
-    <h3>{props.h1}</h3>
+    <h3 className="mt-3 text-center">{props.h1}</h3>
     {/* <p>{props.p1}</p> */}
         <br />
-    <h3 className="mt-3">{props.h2}</h3>
+    <h3 className="mt-3 text-center">{props.h2}</h3>
     {/* <p>{props.p2}</p> */} 
+    </div>
+    {
+      props.ul &&
+      <div className="mt-3">
+        <ul>
+          <li>
+            <h4>
+              Who are our personas?
+            </h4>
+          </li>
+          <li>
+            <h4>
+              What are their pain points, wants, and needs?
+            </h4>
+          </li>
+          <li>
+            <h4>
+              What problems are we trying to solve for them?
+            </h4>
+          </li>
+          <li>
+            <h4>
+              What value are we providing?
+            </h4>
+          </li>
+          <li>
+            <h4>
+              What user experience flows are we implementing?
+            </h4>
+          </li>
+        </ul> 
+      </div>
+    }
+    {
+    props.diagram2 && 
+      <div className="row justify-content-center mb-3">
+        <img src={props.diagram2} alt="img" className="px-5 col-md-9 col-sm-12 mx-auto max-hw" />
+      </div>
+  }
+    <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
+      <h3 className="mt-3 text-center">{props.h3}</h3>
     </div>
   </div>
 
   <br />
-  {
+  {/* {
     props.diagram && 
       <div className="row justify-content-center mt-3">
         <img src={props.diagram} alt="img" className="px-5 col-md-9 col-sm-12 mx-auto max-hw" />
       </div>
-  }
+  } */}
   {/* <h2 id="page-header"><strong>We Also Offer:</strong></h2> */}
   {/* <div id="features" className="row">
     <div className="col-sm-6">
@@ -58,9 +139,9 @@ function Service(props) {
       <li>Mortgage/Foreclosure/REO/Reverse Mortgage Appraisals</li>
     </div>
   </div> */}
-  <hr />
+  {/* <hr />
 
-  <hr />
+  <hr /> */}
 
   
 </div>
