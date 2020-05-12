@@ -20,7 +20,7 @@ function Service(props) {
   <div id="features" className="d-flex flex-column justify-content-center align-items-center">
   {
     props.diagram && 
-      <div className="row justify-content-center mb-3">
+      <div className="row justify-content-center mt-4 mb-3">
         <img src={props.diagram} alt="img" className="px-5 col-md-9 col-sm-12 mx-auto max-hw" />
       </div>
   }

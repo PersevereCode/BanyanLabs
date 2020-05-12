@@ -4,6 +4,9 @@ import { Container, Row } from "react-bootstrap";
 import "./Mission.css";
 
 export default class Mission extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     const colors = {
       main: "#24234d",

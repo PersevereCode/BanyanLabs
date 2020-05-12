@@ -4,7 +4,9 @@ import TeamMember from "../../components/TeamMember/TeamMember";
 import { TEAMMEMBERS } from "./teamMembers";
 
 export default class Team extends Component {
-  
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     
     return (

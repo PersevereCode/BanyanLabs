@@ -4,6 +4,9 @@ import NaicoTeam from "../../styles/images/naicoteam.jpg"
 import PersevereTeam from "../../styles/images/persevereteam.jpg"
 
 export default class Partners extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div
