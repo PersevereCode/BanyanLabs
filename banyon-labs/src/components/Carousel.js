@@ -26,7 +26,7 @@ function ControlledCarousel() {
                     alt="First slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay={true} loop>
+                    <video autoPlay={true} loop muted>
                         <source type="video/mp4" src={SourceCode} />
                     </video>
                 </ResponsiveEmbed>
@@ -42,7 +42,7 @@ function ControlledCarousel() {
                     alt="Second slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay={true} loop>
+                    <video autoPlay={true} loop muted>
                         <source type="video/mp4" src={Office} />
                     </video>
                 </ResponsiveEmbed>
@@ -58,7 +58,7 @@ function ControlledCarousel() {
                     alt="Third slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay={true} loop>
+                    <video autoPlay={true} loop muted>
                         <source type="video/mp4" src={Laptop} />
                     </video>
                 </ResponsiveEmbed>
@@ -76,7 +76,7 @@ function ControlledCarousel() {
                     alt="Third slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay={true} loop>
+                    <video autoPlay={true} loop muted>
                         <source type="video/mp4" src={Keyboard} />
                     </video>
                 </ResponsiveEmbed>
