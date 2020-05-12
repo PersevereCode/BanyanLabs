@@ -4,7 +4,7 @@ import SS1 from "../styles/images/ss.webp";
 import PLogo from "../styles/images/persLogo.png";
 import NLogo from "../styles/images/naico.jpg";
 import { Link } from "react-router-dom";
-import Team from "../styles/images/team.jpg";
+// import Team from "../styles/images/team.jpg";
 import { Figure } from "react-bootstrap";
 
 export default function WhoWeAre() {
@@ -44,7 +44,7 @@ export default function WhoWeAre() {
           <Link className="no-dec" to="/team">
             <h3 className="text-center display-4 prim-txt">Team</h3>
           </Link>
-          <Figure>
+          <Figure style={{maxWidth: '1200px'}}>
             <Figure.Image
               height={350}
               maxWidth={750}
