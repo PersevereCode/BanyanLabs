@@ -26,7 +26,7 @@ function Service(props) {
   }
   {
     props.mobile &&
-        <Table style={{width: '50vw'}} className='mt-3' borderless>
+        <Table style={{width: '50vw'}} className='mt-4' borderless>
           <tbody>
             <tr>
               <td>
