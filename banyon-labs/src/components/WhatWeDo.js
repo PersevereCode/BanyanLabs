@@ -22,9 +22,9 @@ const WhatWeDo = (props) => {
                     <FormatListBulletedIcon style={iconStyles} className='mb-3 align-self-center' />
                     <h2 className='mb-3'>Our Process</h2>
                 </Link> 
-                <Image src={Process} style={{height: "auto", width: '50vw', maxHeight: '400px', maxWidth: '800px'}} />
-                <p className='text-center mt-4'>
-                At Banyan Labs, we provide tailor-made business solutions that enhance your opportunities and streamline your processes. We believe in long term partnerships that create extraordinary experiences.</p>
+                {/* <Image src={Process} style={{height: "auto", width: '50vw', maxHeight: '400px', maxWidth: '800px'}} />
+                <p className='text-center mt-4'> */}
+                <p>At Banyan Labs, we provide tailor-made business solutions that enhance your opportunities and streamline your processes. We believe in long term partnerships that create extraordinary experiences.</p>
             </div>
                 <div className='d-flex flex-column align-items-center col-md-4 col-lg-4 col-sm-12 mb-3'>
                     <Link to='/services/2' className='d-flex flex-column no-dec'>
