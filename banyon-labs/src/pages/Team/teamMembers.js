@@ -46,7 +46,7 @@ export const TEAMMEMBERS = [
     name: "Marcellas Colbert",
     title: "Developer",
     image: "./pictures/Team/marcellusC.jpg",
-    bio: "My name is Marcellas Colbert. I am 25 years old , from Nashville, TN. I have been coding with Persevere and Banyan Labs for almost a year now. I am certified in JavaScript , HTML , and all Front-End Libraries. I really love designing , whether it’s a logo, graphics, app, or a website.",
+    bio: "Marcellas Colbert 25 years old from Nashville, TN. He been coding with Persevere for almost a year now and he is now employed at Banyan Labs. He is certified in JavaScript , HTML , CSS, and all Front-End Libraries. Such as React , Bootstrap, Sass , and more. He really loves designing, whether it’s a logo, graphics, app, or a website. He graduated from McGavock High School in 2012 and attended Nashville State Community College. Being an ex-offender has not closed any doors for Marcellas, and he has changed his life all the way around for better. He has set many goals, one of which is to go back and finish college at a four year university, and he is determined to accomplish all of them!",
   },
   {
     id: 7,
