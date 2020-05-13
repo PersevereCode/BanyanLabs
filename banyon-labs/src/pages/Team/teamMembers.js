@@ -87,7 +87,7 @@ export const TEAMMEMBERS = [
     id: 12,
     name: "Zach Hosman",
     title: "Program Manager",
-    image: "./pictures/Team/zachH.jpg",
+    image: "./pictures/Team/zachH.png",
     bio: "",
   },
   {
