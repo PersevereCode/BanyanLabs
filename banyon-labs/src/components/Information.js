@@ -11,7 +11,7 @@ export default function Information() {
                     <h2 className="text-light contact_attributes">Phone # (877) 260-7299</h2>
                 </div>
                 <div  className="col-lg-5 col-md-12">
-                    <Map className="dd"/>
+                    <Map className="dd" />
                 </div>
             </div>
         </div>
