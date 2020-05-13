@@ -46,7 +46,7 @@ export const TEAMMEMBERS = [
     name: "Marcellas Colbert",
     title: "Developer",
     image: "./pictures/Team/marcellusC.jpg",
-    bio: "",
+    bio: "My name is Marcellas Colbert. I am 25 years old , from Nashville, TN. I have been coding with Persevere and Banyan Labs for almost a year now. I am certified in JavaScript , HTML , and all Front-End Libraries. I really love designing , whether it’s a logo, graphics, app, or a website.",
   },
   {
     id: 7,
@@ -87,7 +87,7 @@ export const TEAMMEMBERS = [
     id: 12,
     name: "Zach Hosman",
     title: "Program Manager",
-    image: "./pictures/male.png",
+    image: "./pictures/Team/zachH.jpg",
     bio: "",
   },
   {
