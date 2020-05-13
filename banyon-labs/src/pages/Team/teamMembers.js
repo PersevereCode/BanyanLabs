@@ -57,7 +57,7 @@ export const TEAMMEMBERS = [
   },
   {
     id: 8,
-    name: "Kenneth Gourly",
+    name: "Kenneth Gourley",
     title: "Developer",
     image: "./pictures/Team/kennethG.jpg",
     bio: "Kenneth is an Intermediate in Web Development and Mechanical Drafting. He is certified through Microsoft as an (MOS) Microsoft Office Specialist in Word, PowerPoint, Excel, and Access Software. Kenneth holds certificates in Drafting Apprenticeship, Drafting Detail-er, and a member of the National Technical Honor Society. He has also obtained a Presidential Achievement Award from the (Obama Administration). He is determined, and drives to one day become a successful Entrepreneur. He has been employed with the Persevere team since October, 03 2019. He has become certified and successful in HTML, CSS, JAVASCRIPT, and is familiar with the REACT library.   He was born in Palos Heights, Illinois, and moved to the state of Tennessee with his mother at the age of three. His Grandmother traveled to the United States while still inside her mothers stomach from Czechoslovakia.  Kenneth strives from the recreation of his life. Proud of his new standard of life, transitioning from an ex-felon to a proud man of career. Kenneth' favorite quote is “Don't get too deep, it leads to over thinking, and over thinking leads to problems that doesn't even exist in the first place.” by ― Jayson Engay.",

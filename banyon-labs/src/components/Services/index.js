@@ -7,10 +7,9 @@ function Service(props) {
   return (
 <div>
   <Row style={{ backgroundColor: "#24234d" }}>
-    <Container className="pt-4 pb-4 text-center text-light">
+    <Container className="pt-4 pb-4 lead text-center text-light">
       <h1
         className="display-3"
-        style={{ "font-family": "Acumin Variable Concept" }}
       >
         {props.title}
       </h1>
@@ -20,7 +19,7 @@ function Service(props) {
   <div id="features" className="d-flex flex-column justify-content-center align-items-center">
   {
     props.diagram && 
-      <div className="row justify-content-center mb-3">
+      <div className="row justify-content-center mt-4 mb-3">
         <img src={props.diagram} alt="img" className="px-5 col-md-9 col-sm-12 mx-auto max-hw" />
       </div>
   }
@@ -62,10 +61,10 @@ function Service(props) {
     <img id="appraisal-image" className="img-fluid rounded mb-3 mb-md-0" src={props.img} alt='img' />
   </div> */}
   <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
-    <h3 className="mt-3 text-center">{props.h1}</h3>
+    <p className="mt-3 lead text-justify">{props.h1}</p>
     {/* <p>{props.p1}</p> */}
         <br />
-    <h3 className="mt-3 text-center">{props.h2}</h3>
+    <p className="mt-3 lead text-justify">{props.h2}</p>
     {/* <p>{props.p2}</p> */} 
     </div>
     {
@@ -73,27 +72,27 @@ function Service(props) {
       <div className="mt-3">
         <ul>
           <li>
-            <h4>
+            <h4 className="lead">
               Who are our personas?
             </h4>
           </li>
           <li>
-            <h4>
+            <h4 className="lead">
               What are their pain points, wants, and needs?
             </h4>
           </li>
           <li>
-            <h4>
+            <h4 className="lead">
               What problems are we trying to solve for them?
             </h4>
           </li>
           <li>
-            <h4>
+            <h4 className="lead">
               What value are we providing?
             </h4>
           </li>
           <li>
-            <h4>
+            <h4 className="lead">
               What user experience flows are we implementing?
             </h4>
           </li>
@@ -107,7 +106,7 @@ function Service(props) {
       </div>
   }
     <div className="col-md-9 col-sm-12 row justify-content-center mt-3">
-      <h3 className="mt-3 text-center">{props.h3}</h3>
+      <h3 className="mt-3 lead text-justify">{props.h3}</h3>
     </div>
   </div>
 

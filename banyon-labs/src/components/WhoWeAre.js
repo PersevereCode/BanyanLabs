@@ -4,22 +4,22 @@ import SS1 from "../styles/images/ss.webp";
 import PLogo from "../styles/images/persLogo.png";
 import NLogo from "../styles/images/naico.jpg";
 import { Link } from "react-router-dom";
-import Team from "../styles/images/team.jpg";
+// import Team from "../styles/images/team.jpg";
 import { Figure } from "react-bootstrap";
 
 export default function WhoWeAre() {
   return (
     <div>
       <div className="row justify-content-center p-5">
-        <div className="text-center">
-          <Link className="no-dec" to="/about_us">
+        <div className="text-center col-12">
+          <Link className="no-dec " to="/about_us">
             <h3 className="display-4 prim-txt">Who We Are</h3>
           </Link>
         </div>
 
         {/* <h3 className="text-center col-12 mt-3"><Link className="no-dec" to="/about_us">About Us</Link></h3>    */}
 
-        <div>
+        <div style={{maxWidth: "1200px"}}>
           <Link className="no-dec" to="/about_us">
             <h3 className="header-size-2 pt-3 sec-txt">About</h3>
           </Link>
@@ -44,7 +44,7 @@ export default function WhoWeAre() {
           <Link className="no-dec" to="/team">
             <h3 className="text-center display-4 prim-txt">Team</h3>
           </Link>
-          <Figure>
+          <Figure style={{maxWidth: '1200px'}}>
             <Figure.Image
               height={350}
               maxWidth={750}

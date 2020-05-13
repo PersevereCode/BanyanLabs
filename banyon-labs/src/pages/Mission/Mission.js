@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import { Container, Row } from "react-bootstrap";
-
+import {Divider} from "@material-ui/core"
 import "./Mission.css";
 
 export default class Mission extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     const colors = {
       main: "#24234d",
@@ -36,7 +39,7 @@ export default class Mission extends Component {
           <Container className="p-4 text-justify">
             <div>
               <div className="mt-2 pt-2 pb-2 mb-4">
-                <h3 className="pb-4 divider lead text-justify">
+                <h3 className="pb-4 lead text-justify">
                   At Banyan Labs our mission is, first, <b>client value</b> and,
                   second, <b> associate growth</b>. We have education,
                   partnership, and mentoring programs in place which ensure that
@@ -44,13 +47,14 @@ export default class Mission extends Component {
                   projects while the men and women of Banyan Labs continue to
                   learn and refine their technical skills.
                 </h3>
+              <Divider style={{height:"2px"}} />
               </div>
               <div className="mt-2 pt-2 pb-2 mb-4">
                 <h2 className="sectionHeader">
                   <b>CLIENT VALUE</b>
                 </h2>
                 <br />
-                <h3 className="pb-4 divider lead text-justify">
+                <h3 className="pb-4 lead text-justify">
                   Client value is our first priority as we provide quality
                   solutions to companies at competitive prices. Our partnership
                   with Naico, a richly talented IT services company, in
@@ -58,6 +62,7 @@ export default class Mission extends Component {
                   engineers to mentor and oversee all developer teams to ensure
                   quality and success on any job, large or small.
                 </h3>
+                <Divider style={{height:"2px"}} />
               </div>
               <div className="mt-2 pt-2 pb-2 mb-4">
                 <h2 className="sectionHeader">

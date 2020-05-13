@@ -26,13 +26,13 @@ function ControlledCarousel() {
                     alt="First slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay={true} loop>
+                    <video autoPlay={true} loop muted>
                         <source type="video/mp4" src={SourceCode} />
                     </video>
                 </ResponsiveEmbed>
                 <Carousel.Caption>
-                    <h3 className="animated rotateInUpRight">First slide label</h3>
-                    <p className="animated rotateInUpRight">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3 className="animated rotateInUpRight">Banyan Labs brings your solution to life.</h3>
+                    {/* <p className="animated rotateInUpRight">Banyan Labs brings your solution to life.</p> */}
                 </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -42,13 +42,13 @@ function ControlledCarousel() {
                     alt="Second slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay={true} loop>
+                    <video autoPlay={true} loop muted>
                         <source type="video/mp4" src={Office} />
                     </video>
                 </ResponsiveEmbed>
                 <Carousel.Caption>
-                    <h3 className="animated rotateInUpRight">Second slide label</h3>
-                    <p className="animated rotateInUpRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 className="animated rotateInUpRight">Front-end, Back-end, Design</h3>
+                    {/* <p className="animated rotateInUpRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                 </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -58,15 +58,15 @@ function ControlledCarousel() {
                     alt="Third slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay={true} loop>
+                    <video autoPlay={true} loop muted>
                         <source type="video/mp4" src={Laptop} />
                     </video>
                 </ResponsiveEmbed>
                 <Carousel.Caption>
-                    <h3 className="animated rotateInUpRight">Third slide label</h3>
-                    <p className="animated rotateInUpRight">
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <h3 className="animated rotateInUpRight">Say what we do. Do what we say.</h3>
+                    {/* <p className="animated rotateInUpRight"> */}
+                    {/* Praesent commodo cursus magna, vel scelerisque nisl consectetur. */}
+                    {/* </p> */}
                 </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -76,15 +76,15 @@ function ControlledCarousel() {
                     alt="Third slide"
                 /> */}
                 <ResponsiveEmbed aspectRatio="16by9">
-                    <video autoPlay={true} loop>
+                    <video autoPlay={true} loop muted>
                         <source type="video/mp4" src={Keyboard} />
                     </video>
                 </ResponsiveEmbed>
                 <Carousel.Caption>
-                    <h3 className="animated rotateInUpRight">Fourth slide label</h3>
-                    <p className="animated rotateInUpRight">
+                    <h3 className="animated rotateInUpRight">Let us help you make your best impression online.</h3>
+                    {/* <p className="animated rotateInUpRight">
                     Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    </p> */}
                 </Carousel.Caption>
                 </Carousel.Item>
     
