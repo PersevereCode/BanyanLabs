@@ -88,7 +88,7 @@ export const TEAMMEMBERS = [
     name: "Zach Hosman",
     title: "Program Manager",
     image: "./pictures/Team/zachH.png",
-    bio: "",
+    bio: "Zach Hosman is the Program Manager for Persevere in Arizona. As Program Manager, he is responsible for the day-to-day implementation and management of Persevere’s coding and employment programs within institutions and community agencies. Mr. Hosman is well acquainted with the skills, perseverance, and support ex-offenders need to succeed in the job market and community. Not only does he have 5+ years in the project management and leadership fields, but his father is an ex-offender himself, and Zach is committed to helping others move beyond their pasts to create successful futures for themselves. Under his leadership, Persevere has the best blend of technical expertise, inspiration, and enthusiasm that participants will need to change their lives.",
   },
   {
     id: 13,
