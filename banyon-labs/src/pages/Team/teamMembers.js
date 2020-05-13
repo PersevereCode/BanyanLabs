@@ -94,14 +94,14 @@ export const TEAMMEMBERS = [
     id: 13,
     name: "Matt Payn",
     title: "Customer Relations",
-    image: "./pictures/male.png",
+    image: "./pictures/Team/mattP.jpg",
     bio: "",
   },
   {
     id: 14,
     name: "Anup Cherian",
     title: "Project Manager",
-    image: "./pictures/male.png",
+    image: "./pictures/Team/anupC.jpg",
     bio: "With a PMP certification and 18 years’ of experience in IT project deliveries and IT office management, Anup Cherian is our Project Manager. His technical background is in BI, analytics, and data warehousing but he has managed projects using various technology stacks, and for over the last decade, he has managed projects from startups to large organizations in various industry domains.",
   },
   {
