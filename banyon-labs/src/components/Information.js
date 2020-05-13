@@ -12,7 +12,7 @@ export default function Information() {
                     <h2 className="text-light contact_attributes">Phone # (877) 260-7299</h2>
                 </div>
                 <div  className="col-lg-5 col-md-12">
-                    <Image src={Map} className="dd" />
+                    <a target="_blank" href="https://www.google.com/maps/place/4147+Willow+Lake+Blvd,+Memphis,+TN+38118/@35.0362499,-89.8920736,17z/data=!3m1!4b1!4m5!3m4!1s0x887f8f7fa91059b3:0xee53bbc45675fed3!8m2!3d35.0362499!4d-89.8898849"><Image src={Map} className="dd" /></a>
                 </div>
             </div>
         </div>
