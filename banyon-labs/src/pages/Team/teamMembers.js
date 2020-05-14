@@ -95,7 +95,7 @@ export const TEAMMEMBERS = [
     name: "Matt Payn",
     title: "Customer Relations",
     image: "./pictures/Team/mattP.jpg",
-    bio: "",
+    bio: "Matt has a diverse background and has worked in healthcare, finance, construction, and technology. While his greatest asset is connecting with and caring about people he applies his talent for finance, strategy, sales, marketing, and customer service in ways that help companies transform and grow. Prior to joining Banyan Labs through his work as VP of Business Relations at Naico ITS Matt pursued a startup called GoLOVEpeople.com. The mission of Banyan Labs and GoLOVEpeople is about impact and community transformation and although GoLOVEpeople is inactive currently he isn't finished pursuing a technology that helps people care about others.",
   },
   {
     id: 14,
