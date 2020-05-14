@@ -6,10 +6,10 @@ import CheckIcon from '@material-ui/icons/Check';
 function Service(props) {
   return (
 <div>
-  <Row style={{ backgroundColor: "#24234d" }}>
+  <Row style={{ backgroundColor: "#24234d"}}>
     <Container className="pt-4 pb-4 lead text-center text-light">
       <h1
-        className="display-3"
+        className="display-4"
       >
         {props.title}
       </h1>
