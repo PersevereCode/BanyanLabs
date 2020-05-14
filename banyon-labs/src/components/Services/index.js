@@ -25,13 +25,13 @@ function Service(props) {
   }
   {
     props.mobile &&
-        <Table style={{width: '50vw'}} className='mt-4' borderless>
+        <Table style={{maxWidth: '400px'}} className='mt-4 mx-auto' borderless>
           <tbody>
             <tr>
               <td>
                 <h4>iOS?</h4>
               </td>
-              <td>
+              <td className="row justify-content-center">
                 <CheckIcon className="ml-3" style={{fontSize: '28'}} />
               </td>
             </tr>
@@ -39,7 +39,7 @@ function Service(props) {
               <td>
                 <h4>Android?</h4>
               </td>
-              <td>
+              <td className="row justify-content-center">
               <CheckIcon className="ml-3" style={{fontSize: '28'}} />
               </td>
             </tr>
@@ -47,7 +47,7 @@ function Service(props) {
               <td>
                 <h4>Cross-platform solutions?</h4>
               </td>
-              <td>
+              <td className="row justify-content-center">
               <CheckIcon className="ml-3" style={{fontSize: '28'}} />
               </td>
             </tr>
