@@ -21,7 +21,7 @@ export default class Team extends Component {
           </Container>
         </Row>
 
-        <Row className="mt-2" styele={{"max-height": "765px"}}>
+        <Row className="mt-2">
           <Container>
           <TeamMember teamMembers={TEAMMEMBERS} />            
           </Container>
