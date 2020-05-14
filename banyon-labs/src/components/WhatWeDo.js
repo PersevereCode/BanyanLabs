@@ -17,7 +17,7 @@ const WhatWeDo = (props) => {
             <div className='d-flex flex-column align-items-center justify-content-center col-md-9 col-lg-9 col-sm-12 mb-3'
             >
                 <Link to='/services/1' className='d-flex flex-column no-dec'>
-                    <FormatListBulletedIcon style={iconStyles} className='mb-3 align-self-center' />
+                    <FormatListBulletedIcon style={{...iconStyles, color: "#1b723f"}} className='mb-3 align-self-center' />
                     <h2 className='mb-3 sec-txt hover-sec'>Our Process</h2>
                 </Link> 
                 <p className="text-center lead">Banyan Labs will work closely with you to gather product requirements before presenting a proposal. Once given the green light, we will refine and prioritize your user stories and begin an iterative product development cycle which includes regular product demos and, as required, user testing. Communication and status update with our clients is a top priority.</p>
@@ -25,7 +25,7 @@ const WhatWeDo = (props) => {
             </div>
                 <div className='d-flex flex-column align-items-center col-md-4 col-lg-4 col-sm-12 mb-3'>
                     <Link to='/services/2' className='d-flex flex-column no-dec'>
-                        <DesktopWindowsIcon style={iconStyles} className='mb-3 align-self-center' />
+                        <DesktopWindowsIcon style={{...iconStyles, color: "#1b723f"}} className='mb-3 align-self-center' />
                         <h2 to='/services/2' className='mb-3 sec-txt hover-sec'>Web Apps</h2> 
                     </Link>
                     <p className='text-center lead'>
@@ -33,7 +33,7 @@ const WhatWeDo = (props) => {
                 </div>
                 <div className='d-flex flex-column align-items-center col-md-4 col-lg-4 col-sm-12 mb-3'>
                     <Link to='/services/3' className='d-flex flex-column no-dec'>
-                        <PhoneAndroidIcon style={iconStyles} className='mb-3 align-self-center' />
+                        <PhoneAndroidIcon style={{...iconStyles, color: "#1b723f"}} className='mb-3 align-self-center' />
                         <h2 to='/services/3' className='mb-3 sec-txt hover-sec'>Mobile Apps</h2>
                     </Link> 
                     <p className='text-center lead'>
@@ -41,7 +41,7 @@ const WhatWeDo = (props) => {
                 </div>
                 <div className='d-flex flex-column align-items-center col-md-4 col-lg-4 col-sm-12 mb-3'>
                     <Link to='/services/4' className='d-flex flex-column no-dec'>
-                        <AssignmentTurnedInIcon style={iconStyles} className='mb-3 align-self-center' />
+                        <AssignmentTurnedInIcon style={{...iconStyles, color: "#1b723f"}} className='mb-3 align-self-center' />
                     <h2 to='/services/4' className='text-center mb-3 sec-txt hover-sec'>Quality Assurance</h2>
                     </Link> 
                     <p className='text-center lead'>

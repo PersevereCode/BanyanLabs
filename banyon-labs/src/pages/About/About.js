@@ -53,7 +53,7 @@ export default class About extends Component {
             </Container>
 
 
-            <Container className="py-4 mt-3 lead text-justify">
+            <Container className="py-4 mt-3 lead">
               <Table bordered>
                 <tbody style={{backgroundColor: '#24234d', color: 'white'}}>
                   <td>

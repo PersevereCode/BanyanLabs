@@ -67,7 +67,7 @@ export default function WhoWeAre() {
               maxWidth={500}
               src={PLogo}
             />
-            <Figure.Caption style={{ maxWidth: "1200px" }}>
+            <Figure.Caption style={{ maxWidth: "1200px" }} className="lead">
               Persevere is a national non-profit organization who shares our
               mission to empower justice-involved men and women to succeed as
               productive members of society. By helping them develop the skills
@@ -81,7 +81,7 @@ export default function WhoWeAre() {
           </Figure>
           <Figure>
             <Figure.Image src={NLogo} />
-            <Figure.Caption>
+            <Figure.Caption className="lead">
               Naico is a premier IT solutions partner which provides depth,
               breadth, and mentorship to our Banyan Labs team.
             </Figure.Caption>
