@@ -51,7 +51,7 @@ export default class Mission extends Component {
               </div>
               <div className="mt-2 pt-2 pb-2 mb-4">
                 <h2 className="sectionHeader">
-                  <b>CLIENT VALUE</b>
+                  <b className="sec-txt">CLIENT VALUE</b>
                 </h2>
                 <br />
                 <h3 className="pb-4 lead text-justify">
@@ -66,7 +66,7 @@ export default class Mission extends Component {
               </div>
               <div className="mt-2 pt-2 pb-2 mb-4">
                 <h2 className="sectionHeader">
-                  <b>ASSOCIATE GROWTH</b>
+                  <b className="sec-txt">ASSOCIATE GROWTH</b>
                 </h2>
                 <br />
                 <h3 className="pb-4 lead text-justify">

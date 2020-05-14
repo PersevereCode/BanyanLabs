@@ -58,7 +58,7 @@ export default function WhoWeAre() {
         </div>
         <div className="col-12 text-center mt-3">
           <Link className="no-dec" to="/partners">
-            <h3 className="display-4 prim-txt">Partners</h3>
+            <h3 className="display-4 prim-txt mb-3">Partners</h3>
           </Link>
           <Figure>
             <Figure.Image
