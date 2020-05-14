@@ -10,7 +10,7 @@ import Service from "../../components/Services";
 // import Jumbotron from "react-bootstrap/Jumbotron";
 import "./serve.css";
 import Diagram from '../../styles/images/ourprocess.png'
-import Diagram2 from '../../styles/images/webappspic.png'
+import Diagram2 from '../../styles/images/banyanlabswebapps.png'
 
 
 class Services extends Component {

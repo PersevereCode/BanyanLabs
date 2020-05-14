@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Container, Row, Table } from "react-bootstrap";
+import { Container, Row, Table, Image } from "react-bootstrap";
 import Divider from '@material-ui/core/Divider';
+import AboutUsPic from '../../styles/images/persevere_group.jpg'
 import './about.css'
 
 export default class About extends Component {
@@ -29,10 +30,12 @@ export default class About extends Component {
             </Container>
         </Row>
         <Row>
+            <Image src={AboutUsPic} style={{maxHeight: '700px'}} fluid className="mx-auto"/>
           <Container
             className="py-4 text-center col-sm-12 col-md-10 col-lg-6"
             style={{ color: "black" }}>
             <Container className="lead text-justify">
+            <Divider style={{height:"2px"}} className="mb-4" />
               <p>
               Banyan Labs is a technology development company with a powerful social impact story. We provide quality web and mobile app creation, front and back end software development, quality assurance testing, and other software engineering services. We provide end-to-end product development, quality assurance, product and solution engineering services to assist customers in achieving their product development and business goals. Our vision is to empower men and women with skill sets that create a lifetime of new opportunities. 
               </p>
