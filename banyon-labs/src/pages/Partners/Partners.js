@@ -20,7 +20,7 @@ export default class Partners extends Component {
         <Row style={{ backgroundColor: "#24234d" }}>
           <Container className="pt-4 pb-4 text-center">
             <h1
-              className="display-3 p-3"
+              className="display-3"
             >
               Our Partners
               
