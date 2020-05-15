@@ -23,10 +23,10 @@ const AppRouter = () => (
                 <Route path="/about_us" component={About} />
                 <Route path="/mission" component={Mission} />
                 <Route path="/partners" component={Partners} />
-                <Route path="/services/1" component={Services} />
-                <Route path="/services/2" component={Services} />
-                <Route path="/services/3" component={Services} />
-                <Route path="/services/4" component={Services} />
+                <Route path="/services/our_process" component={Services} />
+                <Route path="/services/web_apps" component={Services} />
+                <Route path="/services/mobile_apps" component={Services} />
+                <Route path="/services/quality_assurance" component={Services} />
                 <Route path="/team" component={Team} />
                 <Route component={NotFoundPage}/>
             </Switch>
