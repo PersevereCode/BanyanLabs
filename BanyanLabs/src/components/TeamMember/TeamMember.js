@@ -33,15 +33,22 @@ export default class TeamMember extends Component {
     const members = this.props.teamMembers.map((member) => {
       return (
         <Col sm={12} md={6} lg={3} key={member.id}>
-          <Card  className="m-2">
+          <Card  className="m-2"
+          onClick={() => {
+            this.learnMore(member);
+            this.handleShow();
+          }}
+          block
+          style={{cursor:'pointer'}}
+          >
             <Card.Body style={{border: "#24234d solid 3px"}}>
               <Card.Img variant="top" src={member.image} className='cardImage' />
-              <Card.Title style={{textDecoration: "underline", textDecorationColor: "#494d83",fontSize: "1.35em"}}>{member.name}</Card.Title>
+              <Card.Title style={{textDecorationColor: "#494d83",fontSize: "1.35em"}}>{member.name}</Card.Title>
               <Card.Subtitle>
                 <b>{member.title}</b>
               </Card.Subtitle>
               <br />
-              <Button
+              {/* <Button
                 style={{ backgroundColor: "#24234d", border: "#24234d",}}
                 onClick={() => {
                   this.learnMore(member);
@@ -50,7 +57,7 @@ export default class TeamMember extends Component {
                 block
               >
                 Learn More
-              </Button>
+              </Button> */}
             </Card.Body>
           </Card>
         </Col>
