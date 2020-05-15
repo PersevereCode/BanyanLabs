@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TeamMemberExpanded from "../TeamMemberExpanded";
 import { Card, Button, Row, CardDeck, Col } from "react-bootstrap";
 
+
 import './styles.css'
 
 export default class TeamMember extends Component {
@@ -35,7 +36,7 @@ export default class TeamMember extends Component {
         <Col sm={12} md={6} lg={3} key={member.id}>
           <Card  className="m-2">
             <Card.Body style={{border: "#24234d solid 3px"}}>
-              <Card.Img variant="top" src={member.image} className='cardImage' />
+              <Card.Img variant="top" src={members.image} className='cardImage' />
               <Card.Title style={{textDecoration: "underline", textDecorationColor: "#494d83",fontSize: "1.35em"}}>{member.name}</Card.Title>
               <Card.Subtitle>
                 <b>{member.title}</b>
