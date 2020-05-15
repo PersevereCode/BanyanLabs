@@ -2,6 +2,7 @@
   "name": "banyon-labs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://perseverecode.github.io/BanyanLabs/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@material-ui/core": "^4.9.12",
