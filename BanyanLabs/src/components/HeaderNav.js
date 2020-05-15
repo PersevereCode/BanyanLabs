@@ -1,29 +1,31 @@
 import React, { useState } from 'react'
 import { Navbar, Nav, NavDropdown, Image, Dropdown } from 'react-bootstrap'
 import Logo from '../styles/images/Logo.png'
+import { Link } from "react-router-dom";
 const HeaderNav = (props) => {
     const [isOpen, updateIsOpen] = useState(false)
     const [isOpen2, updateIsOpen2] = useState(false)
+    const [expanded, setExpanded] = useState(false)
+
       return (
         <div>
-            <Navbar fixed="top" bg="light" className="zero-dawn" expand="lg" collapseOnSelect >
+            <Navbar fixed="top" bg="light" className="zero-dawn text-secondary" expand="lg" expanded={expanded} >
                     <Navbar.Brand href="/"><Image className="logo" src={Logo} /></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto"></Nav>
                         <Nav className="d-flex align-items-end">
-                        <Nav.Link className="mx-2" href="/">Home</Nav.Link>
+                        <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/">Home</Nav.Link>
                             <NavDropdown className="mx-2" as="div" title="Who We Are" id="basic-dropdown1" 
                             {...props}
                             onMouseOver={() => updateIsOpen2(true)}
                             onMouseLeave={() => updateIsOpen2(false)}
                             show={isOpen2}
                             >
-                                <NavDropdown.Item href="/about_us">About</NavDropdown.Item>
-                                <NavDropdown.Item href="/mission">Mission</NavDropdown.Item>
-                                <NavDropdown.Item href="/team">Team</NavDropdown.Item>
-                                <NavDropdown.Item href="/partners">Partners</NavDropdown.Item>
-                                <NavDropdown.Divider/>
+                                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/about_us">About</NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/mission">Mission</NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/team">Team</NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/partners">Partners</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown className="mx-2" as="div" title="What We Do" id="basic-dropdown2" 
                             {...props}
@@ -31,10 +33,10 @@ const HeaderNav = (props) => {
                             onMouseLeave={() => updateIsOpen(false)}
                             show={isOpen}
                             >
-                                <Dropdown.Item href="/services/1">Our Process</Dropdown.Item>
-                                <Dropdown.Item href="/services/2">Web Apps</Dropdown.Item>
-                                <Dropdown.Item href="/services/3">Mobile Apps</Dropdown.Item>
-                                <Dropdown.Item href="/services/4">Quality Assurance</Dropdown.Item>
+                                <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/our_process">Our Process</Dropdown.Item>
+                                <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/web_apps">Web Apps</Dropdown.Item>
+                                <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/mobile_apps">Mobile Apps</Dropdown.Item>
+                                <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/quality_assurance">Quality Assurance</Dropdown.Item>
                             </NavDropdown>
                             <Nav.Link className="mx-2 mr-lg-5" href="#contact_us">Contact</Nav.Link>
                         </Nav>
