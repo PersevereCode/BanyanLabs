@@ -19,14 +19,14 @@ const AppRouter = () => (
             {/* //Header Spacer because the HeaderNav is "fixed"  */}
             {/* <div className="mb-5"></div> */}
             <Switch>
-                <Route path="/" component={Home} exact={true}/>
+                <Route path="/" component={Home} exact={true} />
                 <Route path="/about_us" component={About} />
-                <Route path="/mission" component={Mission} exact={true}/>
-                <Route path="/partners" component={Partners} exact={true}/>
-                <Route path="/services/1" component={Services} exact={true}/>
-                <Route path="/services/2" component={Services} exact={true}/>
-                <Route path="/services/3" component={Services} exact={true}/>
-                <Route path="/services/4" component={Services} exact={true}/>
+                <Route path="/mission" component={Mission} />
+                <Route path="/partners" component={Partners} />
+                <Route path="/services/1" component={Services} />
+                <Route path="/services/2" component={Services} />
+                <Route path="/services/3" component={Services} />
+                <Route path="/services/4" component={Services} />
                 <Route path="/team" component={Team} />
                 <Route component={NotFoundPage}/>
             </Switch>

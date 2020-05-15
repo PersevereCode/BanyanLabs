@@ -6,7 +6,6 @@ import NLogo from "../styles/images/naico.jpg";
 import { Link } from "react-router-dom";
 // import Team from "../styles/images/team.jpg";
 import { Figure } from "react-bootstrap";
-import BanyanPic from "../styles/images/banyanGroup.jpg";
 
 export default function WhoWeAre() {
   return (
@@ -49,7 +48,7 @@ export default function WhoWeAre() {
             <Figure.Image
               height={350}
               maxWidth={750}
-              src={BanyanPic}
+              src="./Pictures/banyanGroup.jpg"
             />
             <Figure.Caption>
               “The strength of the team is each individual member. The strength

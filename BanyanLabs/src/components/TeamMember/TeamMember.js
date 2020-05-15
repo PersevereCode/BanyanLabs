@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TeamMemberExpanded from "../TeamMemberExpanded";
 import { Card, Button, Row, CardDeck, Col } from "react-bootstrap";
+
 import './styles.css'
 
 export default class TeamMember extends Component {
