@@ -13,7 +13,7 @@ import Services from "../pages/Services/Services";
 
 
 const AppRouter = () => (
-    <BrowserRouter>
+    <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
         <div>
             <HeaderNav />
             {/* //Header Spacer because the HeaderNav is "fixed"  */}

@@ -10,7 +10,7 @@ const HeaderNav = (props) => {
       return (
         <div>
             <Navbar fixed="top" bg="light" className="zero-dawn text-secondary" expand="lg" expanded={expanded} >
-                    <Navbar.Brand href="/"><Image className="logo" src={Logo} /></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"><Image className="logo" src={Logo} /></Navbar.Brand>
                     <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto"></Nav>

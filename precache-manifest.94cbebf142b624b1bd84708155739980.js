@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62c8f67a6b01ac362685d1dfc2aaac82",
+    "revision": "9da37dd1ca1fbe2de521b65fc04507d4",
     "url": "/BanyanLabs/index.html"
   },
   {
-    "revision": "8370739a549ecaf97607",
+    "revision": "34e1e3efe1a851906d9f",
     "url": "/BanyanLabs/static/css/main.1bb79626.chunk.css"
   },
   {
-    "revision": "ed66f5b094519ac40f6a",
-    "url": "/BanyanLabs/static/js/2.a2526a0a.chunk.js"
+    "revision": "e6992597471fd5789e49",
+    "url": "/BanyanLabs/static/js/2.db797b47.chunk.js"
   },
   {
     "revision": "872d4ad223c39fec1068d862c0b329ff",
-    "url": "/BanyanLabs/static/js/2.a2526a0a.chunk.js.LICENSE.txt"
+    "url": "/BanyanLabs/static/js/2.db797b47.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8370739a549ecaf97607",
-    "url": "/BanyanLabs/static/js/main.8722e9d2.chunk.js"
+    "revision": "34e1e3efe1a851906d9f",
+    "url": "/BanyanLabs/static/js/main.b7c96f49.chunk.js"
   },
   {
     "revision": "4ebd7765fe5a7b62b1b3",
