@@ -20,7 +20,7 @@ const AppRouter = () => (
             {/* <div className="mb-5"></div> */}
             <Switch>
                 <Route path="/" component={Home} exact={true}/>
-                <Route path="/about_us" component={About} exact={true}/>
+                <Route path="/about_us" component={About} />
                 <Route path="/mission" component={Mission} exact={true}/>
                 <Route path="/partners" component={Partners} exact={true}/>
                 <Route path="/services/1" component={Services} exact={true}/>
