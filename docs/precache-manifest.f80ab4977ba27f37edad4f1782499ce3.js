@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1aa9478ad4c597ea1d3542c088c7283",
+    "revision": "b7107d693b781f7154a213b758fe37c2",
     "url": "/BanyanLabs/index.html"
   },
   {
-    "revision": "78ff0cb5354e4faa0419",
+    "revision": "4d2259e88cadc55cf6c6",
     "url": "/BanyanLabs/static/css/main.8c2e1eb0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BanyanLabs/static/js/2.ef65623c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78ff0cb5354e4faa0419",
-    "url": "/BanyanLabs/static/js/main.80a0e6f4.chunk.js"
+    "revision": "4d2259e88cadc55cf6c6",
+    "url": "/BanyanLabs/static/js/main.abb0f994.chunk.js"
   },
   {
     "revision": "4ebd7765fe5a7b62b1b3",
