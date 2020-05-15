@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Navbar, Nav, NavDropdown, Image, Dropdown } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Logo from '../styles/images/Logo.png'
 const HeaderNav = (props) => {
     const [isOpen, updateIsOpen] = useState(false)
@@ -12,7 +13,7 @@ const HeaderNav = (props) => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto"></Nav>
                         <Nav className="d-flex align-items-end">
-                        <Nav.Link className="mx-2" href="/">Home</Nav.Link>
+                        <Nav.Link className="mx-2" href="#"><Link to="/">Home</Link></Nav.Link>
                             <NavDropdown className="mx-2" as="div" title="Who We Are" id="basic-dropdown1" 
                             {...props}
                             onMouseOver={() => updateIsOpen2(true)}
