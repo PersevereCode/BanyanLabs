@@ -4,7 +4,7 @@ import SS1 from "../styles/images/ss.webp";
 import PLogo from "../styles/images/persLogo.png";
 import NLogo from "../styles/images/naico.jpg";
 import { Link } from "react-router-dom";
-// import Team from "../styles/images/team.jpg";
+import Team from "../styles/images/banyanGroup.jpg";
 import { Figure } from "react-bootstrap";
 
 export default function WhoWeAre() {
@@ -21,9 +21,9 @@ export default function WhoWeAre() {
 
         <div style={{maxWidth: "1200px"}}>
           <Link className="no-dec" to="/about_us">
-            <h3 className="header-size-2 pt-3 sec-txt">About</h3>
+            <h3 className="header-size-2 pt-5 sec-txt">About</h3>
           </Link>
-          <p className="text-justify lead">
+          <p className="text-justify lead py-3" style={{fontSize: '24px'}}>
             We are a collection of people dedicated to delivering the highest
             quality service to our customers while impacting social change.
             Everything at Banyan Labs begins and ends with technology: We
@@ -36,21 +36,21 @@ export default function WhoWeAre() {
             opportunities at every turn.
           </p>
           <Link className="no-dec" to="/mission">
-            <h3 className="header-size-2 sec-txt">Mission</h3>
+            <h3 className="header-size-2 sec-txt pt-2">Mission</h3>
           </Link>
-          <p className="text-justify lead">Client value. Associate growth.</p>
+          <p className="text-justify lead py-3" style={{fontSize: '24px'}}>Client value. Associate growth.</p>
         </div>
         <div>
           <Link className="no-dec" to="/team">
-            <h3 className="text-center display-4 prim-txt">Team</h3>
+            <h3 className="text-center display-4 prim-txt py-5">Team</h3>
           </Link>
           <Figure style={{maxWidth: '1200px'}}>
             <Figure.Image
               height={350}
               maxWidth={750}
-              src="./Pictures/banyanGroup.jpg"
+              src={Team}
             />
-            <Figure.Caption>
+            <Figure.Caption style={{fontSize: '20px'}} className='text-center'>
               “The strength of the team is each individual member. The strength
               of each member is the team.” — Phil Jackson
             </Figure.Caption>
@@ -58,7 +58,7 @@ export default function WhoWeAre() {
         </div>
         <div className="col-12 text-center mt-3">
           <Link className="no-dec" to="/partners">
-            <h3 className="display-4 prim-txt mb-3">Partners</h3>
+            <h3 className="display-4 prim-txt mb-3 py-5">Partners</h3>
           </Link>
           <Figure>
             <Figure.Image
@@ -67,7 +67,7 @@ export default function WhoWeAre() {
               maxWidth={500}
               src={PLogo}
             />
-            <Figure.Caption style={{ maxWidth: "1200px" }} className="fig-cap">
+            <Figure.Caption style={{ maxWidth: "1200px", fontSize: '24px'}} className="fig-cap">
               Persevere is a national non-profit organization who shares our
               mission to empower justice-involved men and women to succeed as
               productive members of society. By helping them develop the skills
@@ -81,7 +81,7 @@ export default function WhoWeAre() {
           </Figure>
           <Figure>
             <Figure.Image src={NLogo} />
-            <Figure.Caption className="fig-cap">
+            <Figure.Caption className="fig-cap" style={{fontSize: '24px'}}>
               Naico is a premier IT solutions partner which provides depth,
               breadth, and mentorship to our Banyan Labs team.
             </Figure.Caption>
