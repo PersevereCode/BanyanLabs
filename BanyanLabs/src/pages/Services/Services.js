@@ -18,10 +18,10 @@ class Services extends Component {
     window.scrollTo(0, 0)
   }
   render() {
-    // console.log(this.props.match.url[10]);
-    const page = this.props.match.url[10];
+    // console.log(this.props.match.url);
+    const page = this.props.match.url;
     switch (page) {
-      case "1":
+      case "/services/our_process":
         return (
           <div className="mar-t">
             <Service
@@ -39,7 +39,7 @@ class Services extends Component {
             <br />
           </div>
         );
-      case "2":
+      case "/services/web_apps":
         return (
           <div className="mar-t">
             <Service
@@ -53,7 +53,7 @@ class Services extends Component {
             <br />
           </div>
         );
-      case "3":
+      case "/services/mobile_apps":
         return (
           <div className="mar-t">
             <Service
@@ -67,7 +67,7 @@ class Services extends Component {
             <br />
           </div>
         );
-      case "4":
+      case "/services/quality_assurance":
         return (
           <div className="mar-t">
             <Service
