@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3c2fa0d0.chunk.css",
-    "main.js": "/static/js/main.5d8b643b.chunk.js",
-    "main.js.map": "/static/js/main.5d8b643b.chunk.js.map",
+    "main.js": "/static/js/main.9f69fed9.chunk.js",
+    "main.js.map": "/static/js/main.9f69fed9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.117930ae.js",
     "runtime-main.js.map": "/static/js/runtime-main.117930ae.js.map",
-    "static/js/2.df99d9a7.chunk.js": "/static/js/2.df99d9a7.chunk.js",
-    "static/js/2.df99d9a7.chunk.js.map": "/static/js/2.df99d9a7.chunk.js.map",
+    "static/js/2.5a2e903b.chunk.js": "/static/js/2.5a2e903b.chunk.js",
+    "static/js/2.5a2e903b.chunk.js.map": "/static/js/2.5a2e903b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0028709d6b25c48ae0b819307f00b493.js": "/precache-manifest.0028709d6b25c48ae0b819307f00b493.js",
+    "precache-manifest.b9f1da14f996dac317add7ed657807e7.js": "/precache-manifest.b9f1da14f996dac317add7ed657807e7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.3c2fa0d0.chunk.css.map": "/static/css/main.3c2fa0d0.chunk.css.map",
-    "static/js/2.df99d9a7.chunk.js.LICENSE.txt": "/static/js/2.df99d9a7.chunk.js.LICENSE.txt",
+    "static/js/2.5a2e903b.chunk.js.LICENSE.txt": "/static/js/2.5a2e903b.chunk.js.LICENSE.txt",
     "static/media/Logo.png": "/static/media/Logo.ba022e63.png",
     "static/media/alexF.jpg": "/static/media/alexF.4d70e126.jpg",
     "static/media/alexM.jpg": "/static/media/alexM.ee8e05b1.jpg",
@@ -24,7 +24,6 @@
     "static/media/maps_picture.png": "/static/media/maps_picture.3c492055.png",
     "static/media/marcellusC.jpg": "/static/media/marcellusC.9b945db0.jpg",
     "static/media/mattP.jpg": "/static/media/mattP.7780a10a.jpg",
-    "static/media/naico.jpg": "/static/media/naico.11e3dfcc.jpg",
     "static/media/naicoteam.jpg": "/static/media/naicoteam.acf6494c.jpg",
     "static/media/new_junt.jpg": "/static/media/new_junt.4854a13b.jpg",
     "static/media/office.mp4": "/static/media/office.c7943b2c.mp4",
@@ -45,8 +44,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.117930ae.js",
-    "static/js/2.df99d9a7.chunk.js",
+    "static/js/2.5a2e903b.chunk.js",
     "static/css/main.3c2fa0d0.chunk.css",
-    "static/js/main.5d8b643b.chunk.js"
+    "static/js/main.9f69fed9.chunk.js"
   ]
 }
