@@ -30,7 +30,11 @@ export default class About extends Component {
             </Container>
         </Row>
         <Row>
-            <Image src={AboutUsPic} style={{maxHeight: '700px'}} fluid className="mx-auto"/>
+          <Container>
+            <Row>
+              <Image src={AboutUsPic} style={{maxHeight: '600px'}} fluid className="mx-auto"/>
+            </Row>
+          </Container>
           <Container
             className="py-4 text-center col-sm-12 col-md-10 col-lg-6"
             style={{ color: "black" }}>
