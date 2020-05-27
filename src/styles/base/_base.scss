@@ -6,7 +6,6 @@ $secondary-color-two: #a03116;
 
 *{
     font-family: lato !important;
-    overflow-x: hidden;
 }
 
 .header-size{
@@ -66,4 +65,8 @@ font-weight: 300 !important;
 
 .wordH:hover{
     color: #494d83!important;
+}
+
+.z1{
+    overflow-x: hidden;
 }

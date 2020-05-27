@@ -22,10 +22,10 @@ const HeaderNav = (props) => {
                             onMouseLeave={() => updateIsOpen2(false)}
                             show={isOpen2}
                             >
-                                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/about_us">About</NavDropdown.Item>
-                                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/mission">Mission</NavDropdown.Item>
-                                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/team">Team</NavDropdown.Item>
-                                <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/partners">Partners</NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => {setExpanded(false); updateIsOpen2(false)}} as={Link} to="/about_us">About</NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => {setExpanded(false); updateIsOpen2(false)}} as={Link} to="/mission">Mission</NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => {setExpanded(false); updateIsOpen2(false)}} as={Link} to="/team">Team</NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => {setExpanded(false); updateIsOpen2(false)}} as={Link} to="/partners">Partners</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown className="mx-2 d-flex flex-column align-items-end" as="div" title="What We Do" id="basic-dropdown2" 
                             {...props}
@@ -33,10 +33,10 @@ const HeaderNav = (props) => {
                             onMouseLeave={() => updateIsOpen(false)}
                             show={isOpen}
                             >
-                                <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/our_process">Our Process</Dropdown.Item>
-                                <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/web_apps">Web Apps</Dropdown.Item>
-                                <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/mobile_apps">Mobile Apps</Dropdown.Item>
-                                <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/quality_assurance">Quality Assurance</Dropdown.Item>
+                                <Dropdown.Item onClick={() => {setExpanded(false); updateIsOpen(false)}} as={Link} to="/services/our_process">Our Process</Dropdown.Item>
+                                <Dropdown.Item onClick={() => {setExpanded(false); updateIsOpen(false)}} as={Link} to="/services/web_apps">Web Apps</Dropdown.Item>
+                                <Dropdown.Item onClick={() => {setExpanded(false); updateIsOpen(false)}} as={Link} to="/services/mobile_apps">Mobile Apps</Dropdown.Item>
+                                <Dropdown.Item onClick={() => {setExpanded(false); updateIsOpen(false)}} as={Link} to="/services/quality_assurance">Quality Assurance</Dropdown.Item>
                             </NavDropdown>
                             <Nav.Link className="mx-2 mr-lg-5" href="#contact_us" onClick={() => setExpanded(false)} >Contact</Nav.Link>
                         </Nav>
