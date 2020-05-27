@@ -48,16 +48,6 @@ export default class TeamMember extends Component {
                 <b>{member.title}</b>
               </Card.Subtitle>
               <br />
-              {/* <Button
-                style={{ backgroundColor: "#24234d", border: "#24234d",}}
-                onClick={() => {
-                  this.learnMore(member);
-                  this.handleShow();
-                }}
-                block
-              >
-                Learn More
-              </Button> */}
             </Card.Body>
           </Card>
         </Col>
