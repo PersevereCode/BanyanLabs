@@ -10,13 +10,13 @@ const HeaderNav = (props) => {
       return (
         <div>
             <Navbar fixed="top" bg="light" className="zero-dawn text-secondary" expand="lg" expanded={expanded} >
-                    <Navbar.Brand as={Link} to="/"><Image className="logo" src={Logo} /></Navbar.Brand>
+                    <Navbar.Brand href="/"><Image className="logo" src={Logo} /></Navbar.Brand>
                     <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto"></Nav>
                         <Nav className="d-flex align-items-end">
                         <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/">Home</Nav.Link>
-                            <NavDropdown className="mx-2" as="div" title="Who We Are" id="basic-dropdown1" 
+                            <NavDropdown className="mx-2 d-flex flex-column align-items-end" as="div" title="Who We Are" id="basic-dropdown1" 
                             {...props}
                             onMouseOver={() => updateIsOpen2(true)}
                             onMouseLeave={() => updateIsOpen2(false)}
@@ -27,7 +27,7 @@ const HeaderNav = (props) => {
                                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/team">Team</NavDropdown.Item>
                                 <NavDropdown.Item onClick={() => setExpanded(false)} as={Link} to="/partners">Partners</NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown className="mx-2" as="div" title="What We Do" id="basic-dropdown2" 
+                            <NavDropdown className="mx-2 d-flex flex-column align-items-end" as="div" title="What We Do" id="basic-dropdown2" 
                             {...props}
                             onMouseOver={() => updateIsOpen(true)}
                             onMouseLeave={() => updateIsOpen(false)}
@@ -38,7 +38,7 @@ const HeaderNav = (props) => {
                                 <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/mobile_apps">Mobile Apps</Dropdown.Item>
                                 <Dropdown.Item onClick={() => setExpanded(false)} as={Link} to="/services/quality_assurance">Quality Assurance</Dropdown.Item>
                             </NavDropdown>
-                            <Nav.Link className="mx-2 mr-lg-5" href="#contact_us">Contact</Nav.Link>
+                            <Nav.Link className="mx-2 mr-lg-5" href="#contact_us" onClick={() => setExpanded(false)} >Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>
