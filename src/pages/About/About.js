@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Table, Image } from "react-bootstrap";
+import { Container, Row, Table, Figure } from "react-bootstrap";
 import Divider from '@material-ui/core/Divider';
 import AboutUsPic from '../../styles/images/persevere_group.jpg'
 import './about.css'
@@ -29,12 +29,16 @@ export default class About extends Component {
               </h1>
             </Container>
         </Row>
-        <Row>
-          <Container>
-            <Row>
-              <Image src={AboutUsPic} style={{maxHeight: '600px'}} fluid className="mx-auto"/>
-            </Row>
-          </Container>
+        <Row className='justify-content-center'>
+         
+            <Figure className="mx-auto" style={{maxWidth: '1200px'}}>      
+                <Figure.Image 
+                src={AboutUsPic} 
+                style={{maxHeight: '600px'}}    
+                />
+            </Figure>    
+        </Row>
+        <Row>  
           <Container
             className="py-4 text-center col-sm-12 col-md-10 col-lg-6"
             style={{ color: "black" }}>
