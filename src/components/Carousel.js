@@ -47,7 +47,7 @@ function ControlledCarousel() {
                     </video>
                 </ResponsiveEmbed>
                 <Carousel.Caption>
-                    <h3 className="animated rotateInUpRight">Front-end, Back-end, Design</h3>
+                    <h3 className="animated rotateInUpRight">Front- and Back-end development. Design</h3>
                     {/* <p className="animated rotateInUpRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                 </Carousel.Caption>
                 </Carousel.Item>
