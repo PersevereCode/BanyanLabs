@@ -9,6 +9,7 @@ import RoyY from "../../styles/images/royY.jpg"
 import SeanH from "../../styles/images/seanH.jpg"
 import StaceyB from "../../styles/images/staceyB.jpg"
 import ZachH from "../../styles/images/zachH.png"
+import DemarcusW from "../../styles/images/demarcusW.jpg"
 import Male from "../../styles/images/male.png"
 
 export const TEAMMEMBERS = [
@@ -37,7 +38,7 @@ export const TEAMMEMBERS = [
     id: 3,
     name: "Demarcus Williams",
     title: "Developer",
-    image: Male,
+    image: DemarcusW,
     bio: "Born and raised in Chattanooga, Tennessee, DeMarcus is a helpful and generous person, always looking for new ways to help. Working for Banyan Labs as a Persevere graduate has brought him confidence and hope, his success with coding banishing former insecurities. DeMarcus is a talented developer proficient in all relevant languages and holding several certifications, including full stack. Outside of the office he enjoys playing video games, reading fiction fantasy books, and manga TV. His dream is to become a video game developer. He attributes all of his success, and much of his future, to Persevere and Banyan Labs.",
   },
   {
