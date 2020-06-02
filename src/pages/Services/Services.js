@@ -1,24 +1,14 @@
 import React, { Component } from "react";
-// import Footer from "../components/Footer";
 import Service from "../../components/Services";
-// import API from "../utils/API";
-// import { Link } from "react-router-dom";
-// import Col from "react-bootstrap/Col";
-// import Row from "react-bootstrap/Row";
-// import Container from "react-bootstrap/Container";
-// import Card from "../../components/Card";
-// import Jumbotron from "react-bootstrap/Jumbotron";
 import "./serve.css";
-import Diagram from '../../styles/images/ourprocess.png'
-import Diagram2 from '../../styles/images/new_junt.jpg'
-
+import Diagram from "../../styles/images/ourprocess.png";
+import Diagram2 from "../../styles/images/new_junt.jpg";
 
 class Services extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
   render() {
-    // console.log(this.props.match.url);
     const page = this.props.match.url;
     switch (page) {
       case "/services/our_process":
@@ -27,8 +17,6 @@ class Services extends Component {
             <Service
               img="https://wishdesk.com/sites/default/files/inline-images/Traditional%20Web%20Development%20Process.jpg"
               title="Our Process"
-              // h1="When we engage with clients we want to make sure that communication is paramount, that committments are kept, and that projects meeting expectations are delivered on time and on budget."
-              // h2="This is a diagram of the process which we will follow with you as our client:"
               diagram={Diagram}
               h1="From your initial conversations with our business development team, through detailed requirements discussions with Banyan’s Labs product and project management, to regular demonstrations of working product iterations where your feedback is integrated, the client’s voice, YOUR voice, is paramount."
               h2="We want to thoroughly understand and deliver your value proposition. The problem Banyan Labs hopes to solve is whatever problem you are solving for your customers. Our questions will include:
@@ -49,7 +37,7 @@ class Services extends Component {
               diagram2={Diagram2}
               h3="A high-level architecture diagram of some technologies we can use to implement your website."
             />
-          
+
             <br />
           </div>
         );
@@ -60,10 +48,9 @@ class Services extends Component {
               img="https://www.ipraxa.com/blog/wp-content/uploads/2018/09/mobile-app-development-technologies.png"
               title="Mobile Applications"
               mobile
-              // h1="iOS? Check. Android? Check. Cross-platform solutions? Yeah, we can do that."
               h2="We work with popular mobile application frameworks to efficiently make your mobile app ideas happen."
             />
-           
+
             <br />
           </div>
         );
@@ -76,7 +63,7 @@ class Services extends Component {
               h1="Say what you do. Do what you say. Prove it. Improve it."
               h2="Minimizing your risks is part of our process whether it’s manual performance testing or automated functional testing."
             />
-         
+
             <br />
           </div>
         );
