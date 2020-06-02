@@ -5,29 +5,28 @@ import { TEAMMEMBERS } from "./teamMembers";
 
 export default class Team extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
   render() {
-    
     return (
       <div>
-        <Row style={{ backgroundColor: "#24234d", color: "white",marginTop: "70px" }}>
+        <Row
+          style={{
+            backgroundColor: "#24234d",
+            color: "white",
+            marginTop: "70px",
+          }}
+        >
           <Container className="text-center">
-            <h1
-              className="display-3 text-justify text-center p-3"
-            >
-              Team
-            </h1>
+            <h1 className="display-3 text-justify text-center p-3">Team</h1>
           </Container>
         </Row>
 
         <Row className="mt-2">
           <Container>
-          <TeamMember teamMembers={TEAMMEMBERS} />            
+            <TeamMember teamMembers={TEAMMEMBERS} />
           </Container>
-
         </Row>
-
       </div>
     );
   }

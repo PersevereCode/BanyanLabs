@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Modal, Card } from "react-bootstrap";
+import { Image, Modal } from "react-bootstrap";
 
 export default function TeamMemberExpanded(props) {
   if (props.member !== null) {
@@ -7,12 +7,30 @@ export default function TeamMemberExpanded(props) {
       <>
         <Modal show={props.show} onHide={props.onClose}>
           <Modal.Header closeButton>
-            <Modal.Title>{props.member.name} - {props.member.title}</Modal.Title>
+            <Modal.Title>
+              {props.member.name} - {props.member.title}
+            </Modal.Title>
           </Modal.Header>
-          <Modal.Body style={{whiteSpace: "pre-line", textAlign: "justify", fontSize: '22px'}}>
-            <Image src={props.member.image} fluid rounded style={{maxHeight: '300px', display: 'block', marginLeft: 'auto', marginRight: 'auto'}} />
+          <Modal.Body
+            style={{
+              whiteSpace: "pre-line",
+              textAlign: "justify",
+              fontSize: "22px",
+            }}
+          >
+            <Image
+              src={props.member.image}
+              fluid
+              rounded
+              style={{
+                maxHeight: "300px",
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+            />
             <br />
-           {props.member.bio}
+            {props.member.bio}
           </Modal.Body>
         </Modal>
       </>
