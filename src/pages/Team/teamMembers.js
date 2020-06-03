@@ -10,6 +10,7 @@ import SeanH from "../../styles/images/seanH.jpg";
 import StaceyB from "../../styles/images/staceyB.jpg";
 import ZachH from "../../styles/images/zachH.png";
 import DemarcusW from "../../styles/images/demarcusW.jpg";
+import LukeM from "../../styles/images/lukeM.jpg";
 import Male from "../../styles/images/male.png";
 
 export const TEAMMEMBERS = [
@@ -57,7 +58,7 @@ export const TEAMMEMBERS = [
     id: 5,
     name: "Luke McFalls",
     title: "Developer",
-    image: Male,
+    image: LukeM,
     bio:
       "Having completed his full stack certification just this year, Luke McFalls has been employed by Banyan Labs since November of 2019. Certified in HTML, CSS, JavaScript, Nade JS, My Sql, Express, React, and Redux, he’s also learning C#, React Native, and Python. Luke recognizes the value of teamwork but also enjoys working alone as he spearheads problem solving projects. Thanks to a background in construction, Luke’s mind breaks down complex issues into workable, buildable pieces. Some of his goals include becoming a Senior React Developer and to continue learning more with React Native.",
   },
