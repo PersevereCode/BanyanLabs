@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.36b54c2a.chunk.css",
-    "main.js": "/static/js/main.bea69f00.chunk.js",
-    "main.js.map": "/static/js/main.bea69f00.chunk.js.map",
+    "main.js": "/static/js/main.d199a7da.chunk.js",
+    "main.js.map": "/static/js/main.d199a7da.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.117930ae.js",
     "runtime-main.js.map": "/static/js/runtime-main.117930ae.js.map",
-    "static/js/2.e3d5b97c.chunk.js": "/static/js/2.e3d5b97c.chunk.js",
-    "static/js/2.e3d5b97c.chunk.js.map": "/static/js/2.e3d5b97c.chunk.js.map",
+    "static/js/2.8941f271.chunk.js": "/static/js/2.8941f271.chunk.js",
+    "static/js/2.8941f271.chunk.js.map": "/static/js/2.8941f271.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.62abb2779a9e9882767db88cf3676e1e.js": "/precache-manifest.62abb2779a9e9882767db88cf3676e1e.js",
+    "precache-manifest.52ac3ea95cd2f2a96080d12f194019a5.js": "/precache-manifest.52ac3ea95cd2f2a96080d12f194019a5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.36b54c2a.chunk.css.map": "/static/css/main.36b54c2a.chunk.css.map",
-    "static/js/2.e3d5b97c.chunk.js.LICENSE.txt": "/static/js/2.e3d5b97c.chunk.js.LICENSE.txt",
+    "static/js/2.8941f271.chunk.js.LICENSE.txt": "/static/js/2.8941f271.chunk.js.LICENSE.txt",
     "static/media/Logo.png": "/static/media/Logo.ba022e63.png",
     "static/media/alexF.jpg": "/static/media/alexF.4d70e126.jpg",
     "static/media/alexM.jpg": "/static/media/alexM.ee8e05b1.jpg",
@@ -21,6 +21,7 @@
     "static/media/kennethG.jpg": "/static/media/kennethG.0be47f4c.jpg",
     "static/media/keyboard.mp4": "/static/media/keyboard.24effe8c.mp4",
     "static/media/laptop.mp4": "/static/media/laptop.49a6919a.mp4",
+    "static/media/lukeM.jpg": "/static/media/lukeM.181a4e46.jpg",
     "static/media/male.png": "/static/media/male.7a0b4a18.png",
     "static/media/maps_picture.png": "/static/media/maps_picture.3c492055.png",
     "static/media/marcellusC.jpg": "/static/media/marcellusC.9b945db0.jpg",
@@ -40,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.117930ae.js",
-    "static/js/2.e3d5b97c.chunk.js",
+    "static/js/2.8941f271.chunk.js",
     "static/css/main.36b54c2a.chunk.css",
-    "static/js/main.bea69f00.chunk.js"
+    "static/js/main.d199a7da.chunk.js"
   ]
 }
