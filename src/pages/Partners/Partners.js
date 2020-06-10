@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import NaicoTeam from "../../styles/images/naicoteam.jpg";
 import PersevereTeam from "../../styles/images/persevere_group_photo.jpg";
-
+import ReactGA from 'react-ga';
 export default class Partners extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+    ReactGA.initialize('UA-169087465-1')
+    ReactGA.pageview("/partners"); 
   }
   render() {
     return (

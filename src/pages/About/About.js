@@ -3,11 +3,16 @@ import { Container, Row, Table, Figure } from "react-bootstrap";
 import Divider from "@material-ui/core/Divider";
 import AboutUsPic from "../../styles/images/persevere_group.jpg";
 import "./about.css";
+import ReactGA from 'react-ga';
 
 export default class About extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+    ReactGA.initialize('UA-169087465-1')
+    ReactGA.pageview("/about_us"); 
   }
+
+  
   render() {
     return (
       <div

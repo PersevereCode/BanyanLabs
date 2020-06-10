@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NotFoundPage from "../components/NotFoundPage";
 import Home from "../pages/Home/Home";
@@ -9,8 +9,11 @@ import Mission from "../pages/Mission/Mission";
 import Partners from "../pages/Partners/Partners";
 import ContactForm from "../components/Form";
 import Services from "../pages/Services/Services";
+import { withRouter } from "react-router-dom";
 
-const AppRouter = () => (
+const AppRouter = (props) => {
+  
+  return(
   <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
     <div className="z1">
       <HeaderNav />
@@ -29,6 +32,7 @@ const AppRouter = () => (
       <ContactForm />
     </div>
   </BrowserRouter>
-);
+  )
+};
 
-export default AppRouter;
+export default withRouter(AppRouter);

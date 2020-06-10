@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import { Row, Container } from "react-bootstrap";
 import TeamMember from "../../components/TeamMember/TeamMember";
 import { TEAMMEMBERS } from "./teamMembers";
-
+import ReactGA from 'react-ga'
 export default class Team extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+    ReactGA.initialize('UA-169087465-1')
+    ReactGA.pageview("/team");
   }
   render() {
     return (

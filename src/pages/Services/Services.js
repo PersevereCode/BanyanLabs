@@ -1,13 +1,12 @@
-import React, { Component } from "react";
+import React, { useState, useEffect, Component } from "react";
 import Service from "../../components/Services";
 import "./serve.css";
 import Diagram from "../../styles/images/ourprocess.png";
 import Diagram2 from "../../styles/images/new_junt.jpg";
+import ReactGA from 'react-ga'
 
 class Services extends Component {
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
+
   render() {
     const page = this.props.match.url;
     switch (page) {
@@ -15,6 +14,7 @@ class Services extends Component {
         return (
           <div className="mar-t">
             <Service
+              url={page}
               img="https://wishdesk.com/sites/default/files/inline-images/Traditional%20Web%20Development%20Process.jpg"
               title="Our Process"
               diagram={Diagram}
@@ -31,6 +31,7 @@ class Services extends Component {
         return (
           <div className="mar-t">
             <Service
+            url={page}
               img="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/121002887/original/9f2174ec1236e128859a8ad2ff98a5a21a0230b7/sdwdwdwwqwfhijwwfwefh-eif-wehfiwehf-i-hwei.jpg"
               title="Web Applications"
               h1="Front end, back end, and design. Let us help you make your best impression online."
@@ -45,6 +46,7 @@ class Services extends Component {
         return (
           <div className="mar-t">
             <Service
+            url={page}
               img="https://www.ipraxa.com/blog/wp-content/uploads/2018/09/mobile-app-development-technologies.png"
               title="Mobile Applications"
               mobile
@@ -58,6 +60,7 @@ class Services extends Component {
         return (
           <div className="mar-t">
             <Service
+            url={page}
               img="https://i0.wp.com/opensourceforu.com/wp-content/uploads/2019/04/Testing-mobile-and-apps.jpg?fit=900%2C535&ssl=1"
               title="Quality Assurance"
               h1="Say what you do. Do what you say. Prove it. Improve it."
@@ -71,6 +74,7 @@ class Services extends Component {
         return (
           <div className="mar-t">
             <Service
+            url={page}
               img="https://www.insidehighered.com/sites/default/server_files/styles/large/public/media/barber%20handshake.jpg?itok=KNWntI29"
               title="Appraisal and Valuation Services"
               h1="Real Estate Appraisals"

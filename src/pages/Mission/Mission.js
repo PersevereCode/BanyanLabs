@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import { Container, Row } from "react-bootstrap";
 import { Divider } from "@material-ui/core";
 import "./Mission.css";
+import ReactGA from 'react-ga';
 
 export default class Mission extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
+    ReactGA.initialize('UA-169087465-1')
+    ReactGA.pageview("/mission"); 
   }
   render() {
     return (
