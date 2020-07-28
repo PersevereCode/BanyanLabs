@@ -12,6 +12,10 @@ import ZachH from "../../styles/images/zachH.png";
 import DemarcusW from "../../styles/images/demarcusW.jpg";
 import LukeM from "../../styles/images/lukeM.jpg";
 import Male from "../../styles/images/male.png";
+import Helen from "../../styles/images/Helen.jpg"
+import Willie from "../../styles/images/Willie.jpg"
+import DavidD from "../../styles/images/DavidD.jpg"
+import BarryC from "../../styles/images/BarryC.jpg"
 
 export const TEAMMEMBERS = [
   {
@@ -34,7 +38,7 @@ export const TEAMMEMBERS = [
     id: 2,
     name: "David Ditto",
     title: "Developer",
-    image: Male,
+    image: DavidD,
     bio:
       "David Ditto began the Persevere Program in May of 2019. Although he had no previous coding experience, he quickly caught on and fell in love with the discipline. He’s a problem solver by nature and loves to jump in with both feet, working on complex or challenging projects. David is a well-rounded full stack developer excelling in back-end oriented solutions such as databases, web servers, and APIs. He is proficient in JavaScript, Python and C#, with a lot of experience working with various libraries pertaining to those languages. David has created projects that employ the use of machine learning, and he is constantly learning new technologies and techniques to incorporate into the work. His problem-solving abilities and attention to detail allow him to produce solutions that far exceed expectations, time and time again. Outside of the office he enjoys reading, anything related to space and space travel, and exploring new technology. He plans on having a long and rewarding career in software programming.  He attributes his success so far, and the success to come, to the support and education provided by the Persevere program, his unceasing curiosity, and the incredible amount of support he has received from his family.",
   },
@@ -50,7 +54,7 @@ export const TEAMMEMBERS = [
     id: 4,
     name: "Barry Collins",
     title: "Developer",
-    image: Male,
+    image: BarryC,
     bio:
       "Barry Collins is an enthusiastic team member here at Banyan Labs, currently involved in QA and front-end development. Proficient in HTML, JavaScript, Bootstrap, CSS, React, and React Redux, Barry’s goals are to become a QA Specialist and do freelance front-end development on the side, all while having a positive influence on those around him.. Barry likes to think of himself as a deep pool of thought, always involved in the ‘how & why’ of things. Outside of work he enjoys playing chess and studying theology.",
   },
@@ -141,5 +145,21 @@ export const TEAMMEMBERS = [
     image: RobertP,
     bio:
       "My goal is to help create products that people love. During more than 20 years of experience managing products I led the development of CaptionCall which is now a $300+ million division of Sorenson Communications and have managed dozens of hardware, software, and service products through their lifecycles.\nAt Banyan Labs I work with clients to make sure their requirements are clearly captured then help our associates build powerful solutions and meaningful customer experiences. As a servant leader I strive to help others develop and perform.",
+  },
+  {
+    id: 16,
+    name: "Helen Napper",
+    title: "Developer",
+    image: Helen,
+    bio:
+      "Helen Napper, 41 years of age, is a Jr. Software Developer. She has a certification in Responsive Web Design covering HTML5, CSS3, and JavaScript, and has experience in customer service. Helen was born in Illinois and moved to Memphis, TN in 2005. She has been coding since May of 2020, and has excelled within a short period of time. Helen is very detail-oriented and would like to apply her eye for perfection to being a knowledgeable and effective coder. ",
+  },
+  {
+    id: 17,
+    name: "Willie Wells",
+    title: "Developer",
+    image: Willie,
+    bio:
+      "Willie Wells, born in Memphis, Tennessee started coding June 3rd 2020.  36 years of age, open to a challenges and willing and eager to learn. ",
   },
 ];
