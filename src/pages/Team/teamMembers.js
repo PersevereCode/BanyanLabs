@@ -99,6 +99,22 @@ export const TEAMMEMBERS = [
       "Roy Yates is one of the newest members of the Persevere Family. Roy was born in Central Florida, and later moved to and was  raised in middle Tennessee. He is one of our Junior level Software developers, who is learned in HTML, CSS and JavaScript. Roy has aspirations in moving toward a career that is oriented around UI/UX, primarily in design and the aesthetics of software and site development. Roy has been coding and learning software development with Persevere for almost six months, and has hopes in pursuing a long and lustrous career in development and design. He wants to apply his background in various artistic areas to the digital world, to interact with the customers to bring their ideas into fruition. ",
   },
   {
+    id: 16,
+    name: "Helen Napper",
+    title: "Developer",
+    image: Helen,
+    bio:
+      "Helen Napper, 41 years of age, is a Jr. Software Developer. She has a certification in Responsive Web Design covering HTML5, CSS3, and JavaScript, and has experience in customer service. Helen was born in Illinois and moved to Memphis, TN in 2005. She has been coding since May of 2020, and has excelled within a short period of time. Helen is very detail-oriented and would like to apply her eye for perfection to being a knowledgeable and effective coder. ",
+  },
+  {
+    id: 17,
+    name: "Willie Wells",
+    title: "Developer",
+    image: Willie,
+    bio:
+      "Willie Wells, born in Memphis, Tennessee started coding June 3rd 2020.  36 years of age, open to a challenges and willing and eager to learn. ",
+  },
+  {
     id: 10,
     name: "Sean Hosman",
     title: "President",
@@ -145,21 +161,5 @@ export const TEAMMEMBERS = [
     image: RobertP,
     bio:
       "My goal is to help create products that people love. During more than 20 years of experience managing products I led the development of CaptionCall which is now a $300+ million division of Sorenson Communications and have managed dozens of hardware, software, and service products through their lifecycles.\nAt Banyan Labs I work with clients to make sure their requirements are clearly captured then help our associates build powerful solutions and meaningful customer experiences. As a servant leader I strive to help others develop and perform.",
-  },
-  {
-    id: 16,
-    name: "Helen Napper",
-    title: "Developer",
-    image: Helen,
-    bio:
-      "Helen Napper, 41 years of age, is a Jr. Software Developer. She has a certification in Responsive Web Design covering HTML5, CSS3, and JavaScript, and has experience in customer service. Helen was born in Illinois and moved to Memphis, TN in 2005. She has been coding since May of 2020, and has excelled within a short period of time. Helen is very detail-oriented and would like to apply her eye for perfection to being a knowledgeable and effective coder. ",
-  },
-  {
-    id: 17,
-    name: "Willie Wells",
-    title: "Developer",
-    image: Willie,
-    bio:
-      "Willie Wells, born in Memphis, Tennessee started coding June 3rd 2020.  36 years of age, open to a challenges and willing and eager to learn. ",
   },
 ];
