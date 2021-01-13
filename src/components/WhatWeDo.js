@@ -3,7 +3,7 @@ import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import AssignmentTurnedInIcon from "@material-ui/icons/AssignmentTurnedIn";
 import DesktopWindowsIcon from "@material-ui/icons/DesktopWindows";
 import FormatListBulletedIcon from "@material-ui/icons/FormatListBulleted";
-import { Link } from "react-router-dom";
+import { Link } from "gatsby";
 
 const WhatWeDo = (props) => {
   const iconStyles = {

@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import NaicoTeam from "../../styles/images/naicoteam.jpg";
-import PersevereTeam from "../../styles/images/persevere_group_photo.jpg";
+import NaicoTeam from "../styles/images/naicoteam.jpg";
+import PersevereTeam from "../styles/images/persevere_group_photo.jpg";
 import ReactGA from 'react-ga';
+import HeaderNav from "../components/HeaderNav";
+import ContactForm from "../components/Form"
 export default class Partners extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -19,6 +21,7 @@ export default class Partners extends Component {
         }}
         className="lead"
       >
+            <HeaderNav />
         <Row style={{ backgroundColor: "#24234d" }}>
           <Container className="pt-4 pb-4 text-center">
             <h1 className="display-3">Our Partners</h1>
@@ -74,6 +77,7 @@ export default class Partners extends Component {
             </Row>
           </Container>
         </Row>
+        <ContactForm />
       </div>
     );
   }

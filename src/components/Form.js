@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button, Col } from "react-bootstrap";
 import * as emailjs from "emailjs-com";
-import { withRouter } from "react-router-dom";
 
 const ContactForm = (props) => {
   const [name, setName] = useState("");
@@ -91,4 +90,4 @@ const ContactForm = (props) => {
     </div>
   );
 };
-export default withRouter(ContactForm);
+export default ContactForm;

@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NotFoundPage from "../components/NotFoundPage";
-import Home from "../pages/Home/Home";
+import Home from "../pages/index";
 import HeaderNav from "../components/HeaderNav";
-import About from "../pages/About/About";
-import Team from "../pages/Team/Team";
-import Mission from "../pages/Mission/Mission";
-import Partners from "../pages/Partners/Partners";
+import About from "../pages/About";
+import Team from "../pages/Team";
+import Mission from "../pages/Mission";
+import Partners from "../pages/Partners";
 import ContactForm from "../components/Form";
-import Services from "../pages/Services/Services";
+import Services from "../pages/Services";
 import { withRouter } from "react-router-dom";
 
 const AppRouter = (props) => {

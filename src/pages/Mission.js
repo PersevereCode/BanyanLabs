@@ -3,6 +3,8 @@ import { Container, Row } from "react-bootstrap";
 import { Divider } from "@material-ui/core";
 import "./Mission.css";
 import ReactGA from 'react-ga';
+import HeaderNav from "../components/HeaderNav";
+import ContactForm from "../components/Form"
 
 export default class Mission extends Component {
   componentDidMount() {
@@ -13,6 +15,7 @@ export default class Mission extends Component {
   render() {
     return (
       <div className="main">
+          <HeaderNav />
         <Row className="header">
           <Container className="p-4 text-center">
             <h1 className="display-3">Mission</h1>
@@ -62,6 +65,7 @@ export default class Mission extends Component {
             </div>
           </Container>
         </Row>
+        <ContactForm />
       </div>
     );
   }

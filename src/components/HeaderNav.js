@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Navbar, Nav, NavDropdown, Image, Dropdown } from "react-bootstrap";
 import Logo from "../styles/images/Logo.png";
-import { Link } from "react-router-dom";
+import { Link } from "gatsby";
+
+
 const HeaderNav = (props) => {
   const [isOpen, updateIsOpen] = useState(false);
   const [isOpen2, updateIsOpen2] = useState(false);
@@ -45,7 +47,7 @@ const HeaderNav = (props) => {
                   updateIsOpen2(false);
                 }}
                 as={Link}
-                to="/about_us"
+                to="/About"
               >
                 About
               </NavDropdown.Item>
@@ -55,7 +57,7 @@ const HeaderNav = (props) => {
                   updateIsOpen2(false);
                 }}
                 as={Link}
-                to="/mission"
+                to="/Mission"
               >
                 Mission
               </NavDropdown.Item>
@@ -65,7 +67,7 @@ const HeaderNav = (props) => {
                   updateIsOpen2(false);
                 }}
                 as={Link}
-                to="/team"
+                to="/Team"
               >
                 Team
               </NavDropdown.Item>
@@ -75,7 +77,7 @@ const HeaderNav = (props) => {
                   updateIsOpen2(false);
                 }}
                 as={Link}
-                to="/partners"
+                to="/Partners"
               >
                 Partners
               </NavDropdown.Item>
@@ -96,7 +98,7 @@ const HeaderNav = (props) => {
                   updateIsOpen(false);
                 }}
                 as={Link}
-                to="/services/our_process"
+                to="/Services/our_process"
               >
                 Our Process
               </Dropdown.Item>
@@ -106,7 +108,7 @@ const HeaderNav = (props) => {
                   updateIsOpen(false);
                 }}
                 as={Link}
-                to="/services/web_apps"
+                to="/Services/web_apps"
               >
                 Web Apps
               </Dropdown.Item>
@@ -116,7 +118,7 @@ const HeaderNav = (props) => {
                   updateIsOpen(false);
                 }}
                 as={Link}
-                to="/services/mobile_apps"
+                to="/Services/mobile_apps"
               >
                 Mobile Apps
               </Dropdown.Item>
@@ -126,7 +128,7 @@ const HeaderNav = (props) => {
                   updateIsOpen(false);
                 }}
                 as={Link}
-                to="/services/quality_assurance"
+                to="/Services/quality_assurance"
               >
                 Quality Assurance
               </Dropdown.Item>

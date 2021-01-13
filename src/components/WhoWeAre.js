@@ -1,7 +1,7 @@
 import React from "react";
 import PLogo from "../styles/images/persLogo.png";
 import NLogo from "../styles/images/naico.jpg";
-import { Link } from "react-router-dom";
+import { Link } from "gatsby";
 import Team from "../styles/images/banyanGroup.jpg";
 import { Figure } from "react-bootstrap";
 
